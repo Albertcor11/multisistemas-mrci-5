@@ -1,0 +1,62 @@
+[
+  {
+    "id": "D01",
+    "name": "Mensaje focal",
+    "initial_range": "hasta 35 palabras visibles, sin contar el título",
+    "blocks": "uno a tres bloques",
+    "geometry": "una placa protagonista o hasta tres portadores amplios integrados a la escena",
+    "carrier_share": "25% a 40% del área útil",
+    "scene_share": "60% a 75% del área útil",
+    "guidance": "priorizar impacto, síntesis y lectura inmediata; cuerpo habitual de 24 a 32 pt"
+  },
+  {
+    "id": "D02",
+    "name": "Texto breve distribuido",
+    "initial_range": "36 a 70 palabras visibles, sin contar el título",
+    "blocks": "dos a cuatro bloques",
+    "geometry": "tarjetas, círculos o plataformas grandes con recorridos claros",
+    "carrier_share": "40% a 55% del área útil",
+    "scene_share": "45% a 60% del área útil",
+    "guidance": "mantener explicaciones de dos o tres líneas por bloque; cuerpo habitual de 21 a 26 pt"
+  },
+  {
+    "id": "D03",
+    "name": "Texto medio estructurado",
+    "initial_range": "71 a 120 palabras visibles, sin contar el título",
+    "blocks": "dos a cuatro bloques principales",
+    "geometry": "dos paneles grandes, tres bandas o cuatro módulos anchos; la escena actúa alrededor y entre ellos",
+    "carrier_share": "55% a 68% del área útil",
+    "scene_share": "32% a 45% del área útil",
+    "guidance": "usar encabezados breves y cuerpo de 19 a 23 pt; evitar más de cuatro áreas de lectura"
+  },
+  {
+    "id": "D04",
+    "name": "Texto largo con panel dominante",
+    "initial_range": "121 a 180 palabras visibles, sin contar el título",
+    "blocks": "uno o dos bloques de lectura",
+    "geometry": "un macropanel central o dos paneles verticales; personajes y objetos sostienen, construyen o inspeccionan el marco",
+    "carrier_share": "68% a 78% del área útil",
+    "scene_share": "22% a 32% del área útil",
+    "guidance": "cuerpo de 18 a 21 pt, interlineado cómodo, máximo dos columnas y márgenes interiores generosos"
+  },
+  {
+    "id": "D05",
+    "name": "Texto muy largo editorial",
+    "initial_range": "181 a 260 palabras visibles, sin contar el título",
+    "blocks": "dos columnas o tres bandas amplias",
+    "geometry": "gran tablero editorial de dos columnas, documento desplegado o conjunto de bandas horizontales sostenidas por la escena",
+    "carrier_share": "78% a 88% del área útil",
+    "scene_share": "12% a 22% del área útil",
+    "guidance": "cuerpo de 17 a 19 pt; conservar jerarquía mediante párrafos, sangrías o viñetas nativas, no con reducción extrema"
+  },
+  {
+    "id": "D06",
+    "name": "Fidelidad literal de alta densidad",
+    "initial_range": "más de 260 palabras o contenido cuya literalidad impide condensar",
+    "blocks": "una página editorial, dos columnas o continuidad autorizada",
+    "geometry": "panel de lectura que ocupa casi todo el lienzo con escena portadora limitada a borde, base o esquinas funcionales",
+    "carrier_share": "88% a 94% del área útil",
+    "scene_share": "6% a 12% del área útil",
+    "guidance": "mantener el mínimo tipográfico de la plantilla y comprobar mediante renderizado; si no cabe, dividir solo con autorización y conservar trazabilidad literal"
+  }
+]

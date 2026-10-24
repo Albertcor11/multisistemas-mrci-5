@@ -1,0 +1,5 @@
+interface:
+  display_name: "Presentaciones premium del Diplomado IA"
+  short_description: "Crea, adapta y audita PowerPoint premium para proyección"
+  brand_color: "#1D4E8F"
+  default_prompt: "Usa $visuales-diplomado-ia para crear o adaptar un PowerPoint premium, editable y auditable: elige la plantilla idónea, mide cada diapositiva, distingue portadores exactos de lienzos editoriales, conserva el número de láminas cuando esté fijado y verifica texto, imágenes y legibilidad en proyección."

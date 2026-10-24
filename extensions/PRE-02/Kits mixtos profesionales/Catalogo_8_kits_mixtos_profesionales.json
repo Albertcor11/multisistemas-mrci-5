@@ -1,0 +1,90 @@
+[
+  {
+    "id": "KM01",
+    "name": "Institucional ejecutivo",
+    "best_for": "dirección, gobierno, consultoría, estrategia y presentaciones corporativas",
+    "primary_finish": "S01",
+    "secondary_finish": "S10",
+    "palette": ["#17324D", "#F5F0E7", "#B08D57", "#2C6E6B"],
+    "short_families": ["E02", "E04", "E10", "E15", "E29", "E31", "E43", "E49", "E50"],
+    "long_families": ["LT01", "LT05", "LT14", "LT20"],
+    "continuity": "arquitectura luminosa, figuras blancas y marcos azul tinta con acentos de latón"
+  },
+  {
+    "id": "KM02",
+    "name": "Jurídico editorial",
+    "best_for": "fundamentos, criterios, sentencias, defensa, cumplimiento y normativa",
+    "primary_finish": "S03",
+    "secondary_finish": "S41",
+    "palette": ["#123D32", "#F5EFE3", "#7A2738", "#B49458"],
+    "short_families": ["E11", "E12", "E18", "E25", "E26", "E28", "E32", "E43", "E49"],
+    "long_families": ["LT02", "LT04", "LT05", "LT14", "LT20"],
+    "continuity": "marfil, verde botella y latón; archivo, columnas, deliberación y documentos protegidos"
+  },
+  {
+    "id": "KM03",
+    "name": "Financiero estratégico",
+    "best_for": "presupuesto, inversión, escenarios, resultados y crecimiento",
+    "primary_finish": "S15",
+    "secondary_finish": "S24",
+    "palette": ["#152D46", "#F7F4EC", "#C7352D", "#A77B45"],
+    "short_families": ["E03", "E11", "E13", "E15", "E16", "E38", "E40", "E45", "E47"],
+    "long_families": ["LT06", "LT10", "LT18", "LT20"],
+    "continuity": "nogal, azul profundo y rojo controlado; progresión, comparación y supervisión"
+  },
+  {
+    "id": "KM04",
+    "name": "Técnico de innovación",
+    "best_for": "sistemas, procesos, arquitectura, tecnología, operación y transformación",
+    "primary_finish": "S05",
+    "secondary_finish": "S13",
+    "palette": ["#163B59", "#F4F7F7", "#2F9BB3", "#E97832"],
+    "short_families": ["E04", "E05", "E17", "E20", "E23", "E31", "E38", "E40", "E41"],
+    "long_families": ["LT07", "LT10", "LT11", "LT19"],
+    "continuity": "precisión técnica, metal azul, superficies blancas y pequeños acentos naranjas"
+  },
+  {
+    "id": "KM05",
+    "name": "Municipal territorial",
+    "best_for": "municipios, territorio, servicios, infraestructura, cobertura y planeación",
+    "primary_finish": "S34",
+    "secondary_finish": "S10",
+    "palette": ["#23465A", "#EEE6D5", "#B96145", "#738F76"],
+    "short_families": ["E06", "E08", "E09", "E10", "E19", "E37", "E39", "E49"],
+    "long_families": ["LT01", "LT12", "LT15", "LT16"],
+    "continuity": "cartografía cívica, piedra clara, azul municipal, terracota y verde natural"
+  },
+  {
+    "id": "KM06",
+    "name": "Académico contemporáneo",
+    "best_for": "diplomados, docencia, investigación, conceptos, antecedentes y evidencia",
+    "primary_finish": "S42",
+    "secondary_finish": "S17",
+    "palette": ["#3E3553", "#F3EBDD", "#2E7772", "#D87862"],
+    "short_families": ["E01", "E07", "E18", "E21", "E22", "E28", "E35", "E48", "E49"],
+    "long_families": ["LT02", "LT03", "LT09", "LT17", "LT20"],
+    "continuity": "biblioteca contemporánea, papel marfil, acentos de tinta, diagramas claros y calidez académica"
+  },
+  {
+    "id": "KM07",
+    "name": "Riesgo y cumplimiento",
+    "best_for": "controles, auditoría, excepciones, seguridad, supervisión y decisiones críticas",
+    "primary_finish": "S16",
+    "secondary_finish": "S27",
+    "palette": ["#252D35", "#EFE8D8", "#7E3135", "#D39A43"],
+    "short_families": ["E12", "E13", "E25", "E28", "E32", "E38", "E41", "E42", "E46"],
+    "long_families": ["LT04", "LT10", "LT13", "LT19"],
+    "continuity": "piedra, carbón y borgoña; barreras, compuertas, inspección y documentos protegidos"
+  },
+  {
+    "id": "KM08",
+    "name": "Transformación humana",
+    "best_for": "cambio organizacional, capacidades, equipos, implementación y visión de futuro",
+    "primary_finish": "S40",
+    "secondary_finish": "S20",
+    "palette": ["#17324D", "#F4F0E8", "#D56555", "#357C73"],
+    "short_families": ["E02", "E04", "E06", "E17", "E23", "E27", "E30", "E31", "E39", "E47", "E50"],
+    "long_families": ["LT07", "LT08", "LT12", "LT16", "LT17", "LT19"],
+    "continuity": "diorama ejecutivo con figuras blancas, azul tinta, coral y verde; movimiento y colaboración"
+  }
+]

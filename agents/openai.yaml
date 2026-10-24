@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multisistemas MRCI 5.0 completo"
+  short_description: "17 módulos con bibliotecas y APA México integrado"
+  default_prompt: "Usa $multisistemas-mrci-5 para atender este asunto con sus módulos y aplicar el auditor académico cuando corresponda."

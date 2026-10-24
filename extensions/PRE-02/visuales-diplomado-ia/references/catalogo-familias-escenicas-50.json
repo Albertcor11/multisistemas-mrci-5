@@ -1,0 +1,502 @@
+[
+  {
+    "id": "E01",
+    "name": "Sistema solar de decisiones",
+    "best_for": "componentes, áreas, prioridades o actores alrededor de una idea central",
+    "scene": "una galaxia elegante con un astro central y planetas claramente separados; junto a cada planeta aparece una tarjeta de color físicamente integrada a su órbita",
+    "carriers": "planetas, órbitas limpias y tarjetas rectangulares amplias con interior liso",
+    "variation_logic": "variar número de planetas, profundidad orbital, orientación y jerarquía del astro central",
+    "avoid": "paisaje espacial vacío, nebulosa decorativa, estrellas sobre las zonas de texto",
+    "default_style": "S06"
+  },
+  {
+    "id": "E02",
+    "name": "Obreros blancos portadores",
+    "best_for": "construcción, colaboración, implementación y reparto de responsabilidades",
+    "scene": "personas adultas totalmente blancas, sin rasgos faciales ni ropa coloreada, cargan, colocan o sostienen marcos, círculos y paneles de color",
+    "carriers": "paneles, círculos, vigas y marcos con superficies interiores completamente limpias",
+    "variation_logic": "variar acciones de levantar, empujar, instalar, alinear, entregar y sostener",
+    "avoid": "personajes de caricatura, poses de stock, rostros, texto simulado, personas meramente decorativas",
+    "default_style": "S08"
+  },
+  {
+    "id": "E03",
+    "name": "Escalera financiera ascendente",
+    "best_for": "crecimiento, rentabilidad, madurez, metas y evolución financiera",
+    "scene": "una flecha roja ascendente formada por escalones anchos; pequeñas figuras blancas suben, desplazan círculos o colocan indicadores en cada nivel",
+    "carriers": "peldaños anchos, discos de color, plataformas y una meta superior limpia",
+    "variation_logic": "variar número de niveles, pendiente, recorrido y tareas de las figuras",
+    "avoid": "gráfica bursátil falsa, billetes, monedas gigantes, cifras o símbolos monetarios",
+    "default_style": "S01"
+  },
+  {
+    "id": "E04",
+    "name": "Obra en construcción estratégica",
+    "best_for": "planes, capacidades, proyectos y construcción institucional",
+    "scene": "una obra limpia y estilizada donde cuadrillas blancas ensamblan módulos de color con grúas discretas y andamios mínimos",
+    "carriers": "bloques, placas, fachadas y plataformas con caras frontales despejadas",
+    "variation_logic": "variar fase de obra, altura, módulo central y distribución de equipos",
+    "avoid": "caos de construcción, maquinaria dominante, señales, cascos con logos",
+    "default_style": "S08"
+  },
+  {
+    "id": "E05",
+    "name": "Línea de ensamblaje",
+    "best_for": "procesos, automatización, control de calidad y transformación",
+    "scene": "estaciones de trabajo sucesivas transforman piezas de color mientras operadores blancos intervienen en puntos específicos",
+    "carriers": "bandejas, estaciones, cajas y piezas con planos limpios para texto",
+    "variation_logic": "variar cantidad de estaciones, entrada, controles y producto final",
+    "avoid": "fábrica oscura, engranes cliché, pantallas o rótulos ilegibles",
+    "default_style": "S08"
+  },
+  {
+    "id": "E06",
+    "name": "Puente sobre la brecha",
+    "best_for": "transición, coordinación, interoperabilidad y cierre de brechas",
+    "scene": "dos plataformas contrastadas unidas por un puente modular que figuras blancas están completando",
+    "carriers": "plataformas laterales, tramos del puente y punto de unión con superficies limpias",
+    "variation_logic": "variar longitud, número de tramos, grado de avance y sentidos de circulación",
+    "avoid": "paisaje panorámico vacío, puente turístico, señales viales o texto",
+    "default_style": "S10"
+  },
+  {
+    "id": "E07",
+    "name": "Expedición de montaña",
+    "best_for": "retos, hitos, madurez, estrategia y logro",
+    "scene": "una montaña geométrica con campamentos o terrazas amplias; un equipo blanco avanza y coloca banderines sin símbolos",
+    "carriers": "terrazas, campamentos, placas de ruta y cumbre despejada",
+    "variation_logic": "variar rutas, desnivel, obstáculos, campamentos y punto de llegada",
+    "avoid": "foto de paisaje, aventureros heroicos, banderas con texto o logos",
+    "default_style": "S21"
+  },
+  {
+    "id": "E08",
+    "name": "Puerto y logística",
+    "best_for": "flujo de recursos, cadena de suministro, expedientes y coordinación",
+    "scene": "un puerto isométrico limpio con contenedores de color, muelles y operadores blancos que transfieren módulos",
+    "carriers": "contenedores frontales, plataformas de carga y rutas de transferencia",
+    "variation_logic": "variar origen, destino, número de muelles, transferencia y zona de control",
+    "avoid": "marcas navieras, códigos, saturación industrial, barcos dominantes",
+    "default_style": "S08"
+  },
+  {
+    "id": "E09",
+    "name": "Jardín de iniciativas",
+    "best_for": "ecosistemas, crecimiento, cartera de proyectos y sostenibilidad",
+    "scene": "un jardín editorial con maceteros o parcelas geométricas de color cuidadas por figuras blancas",
+    "carriers": "maceteros, parcelas, placas botánicas sin escritura y un invernadero limpio",
+    "variation_logic": "variar etapas de crecimiento, tipos de parcela y conexiones de riego",
+    "avoid": "jardín decorativo, flores sobre el texto, estilo infantil",
+    "default_style": "S21"
+  },
+  {
+    "id": "E10",
+    "name": "Faro de orientación",
+    "best_for": "visión, principios rectores, gobernanza y dirección",
+    "scene": "un faro estilizado proyecta haces que conectan con plataformas o tarjetas de color en el entorno",
+    "carriers": "haces anchos, plataformas costeras y paneles verticales limpios",
+    "variation_logic": "variar número de destinos, amplitud de haces, cercanía y condiciones del entorno",
+    "avoid": "postal marítima, tormenta dramática, barcos como adorno",
+    "default_style": "S06"
+  },
+  {
+    "id": "E11",
+    "name": "Balanza de criterios",
+    "best_for": "ponderación, proporcionalidad, comparación y decisión jurídica",
+    "scene": "una balanza contemporánea no judicial con bandejas amplias; figuras blancas colocan bloques de color en cada lado",
+    "carriers": "bandejas, bloques ponderados, base y placa de resultado",
+    "variation_logic": "variar equilibrio, número de criterios, peso visual y punto de decisión",
+    "avoid": "mazo, toga, emblemas oficiales, justicia clásica literal",
+    "default_style": "S03"
+  },
+  {
+    "id": "E12",
+    "name": "Puertas y compuertas",
+    "best_for": "validación, alcance, autorización, filtros y detención",
+    "scene": "una secuencia de compuertas arquitectónicas de color con superficies frontales y laterales destinadas a contenido",
+    "carriers": "puertas, dinteles, paneles laterales y zona final de resultado",
+    "variation_logic": "variar cantidad, apertura, bifurcación, perspectiva y condición de paso",
+    "avoid": "corredor vacío, letreros, laberinto oscuro",
+    "default_style": "S10"
+  },
+  {
+    "id": "E13",
+    "name": "Torre de control",
+    "best_for": "supervisión, gobernanza, indicadores y coordinación central",
+    "scene": "una torre central observa estaciones de color donde equipos blancos ejecutan actividades distintas",
+    "carriers": "plataforma superior, estaciones, paneles de estado sin interfaz y conectores",
+    "variation_logic": "variar estaciones, radio de control, alertas visuales y jerarquía",
+    "avoid": "aeropuerto literal, pantallas llenas, botones o dashboards rasterizados",
+    "default_style": "S08"
+  },
+  {
+    "id": "E14",
+    "name": "Mesa de diagnóstico",
+    "best_for": "análisis, revisión humana, causas, evidencia y dictamen",
+    "scene": "especialistas blancos rodean una mesa con piezas y paneles de color, examinando cada componente con instrumentos abstractos",
+    "carriers": "mesa central, bandejas de evidencia, placas laterales y marco de conclusión",
+    "variation_logic": "variar número de evidencias, roles, foco y conclusión",
+    "avoid": "quirófano, anatomía, batas médicas realistas, personas posando",
+    "default_style": "S09"
+  },
+  {
+    "id": "E15",
+    "name": "Tablero de estrategia",
+    "best_for": "escenarios, movimientos, competencia, decisiones y prioridades",
+    "scene": "un tablero sobrio con piezas geométricas grandes movidas por figuras blancas; los sectores funcionan como áreas de contenido",
+    "carriers": "casillas amplias, piezas, bordes del tablero y área de resultado",
+    "variation_logic": "variar configuración, cantidad de rutas, piezas clave y posición final",
+    "avoid": "ajedrez clásico dominante, jaque mate literal, tablero abarrotado",
+    "default_style": "S01"
+  },
+  {
+    "id": "E16",
+    "name": "Observatorio de datos",
+    "best_for": "evidencia, tendencias, vigilancia y análisis de contexto",
+    "scene": "un observatorio contemporáneo apunta a fenómenos visuales; paneles de color capturan hallazgos alrededor",
+    "carriers": "lentes, placas de observación, marco para gráfica nativa y panel de síntesis",
+    "variation_logic": "variar objeto observado, niveles de zoom, estaciones y hallazgos",
+    "avoid": "espacio decorativo, cifras falsas, interfaces futuristas",
+    "default_style": "S05"
+  },
+  {
+    "id": "E17",
+    "name": "Ensamble de piezas",
+    "best_for": "integración, componentes, requisitos y coherencia del sistema",
+    "scene": "figuras blancas ensamblan piezas geométricas de color que forman una estructura mayor",
+    "carriers": "piezas grandes con caras limpias, base de armado y pieza final",
+    "variation_logic": "variar cantidad, secuencia, pieza faltante, encaje y forma final",
+    "avoid": "rompecabezas infantil, piezas diminutas, iconos flotantes",
+    "default_style": "S07"
+  },
+  {
+    "id": "E18",
+    "name": "Archivo y biblioteca viva",
+    "best_for": "fuentes, conocimiento, expedientes, precedentes y documentación",
+    "scene": "estanterías o archivadores sobrios donde figuras blancas extraen, ordenan y conectan carpetas de color sin escritura",
+    "carriers": "lomos anchos, carpetas, mesas de consulta y panel de hallazgo",
+    "variation_logic": "variar recorrido documental, clasificación, capas y piezas seleccionadas",
+    "avoid": "texto en libros, biblioteca decorativa, desorden o polvo",
+    "default_style": "S04"
+  },
+  {
+    "id": "E19",
+    "name": "Territorio y hoja de ruta",
+    "best_for": "planeación, fases, decisiones y destinos",
+    "scene": "un territorio isométrico con ruta visible, estaciones físicas y equipos blancos moviéndose entre ellas",
+    "carriers": "estaciones, placas de ruta, bifurcaciones y destino",
+    "variation_logic": "variar número de etapas, bifurcaciones, obstáculos y escala del mapa",
+    "avoid": "mapa vial literal, señales, nombres geográficos o GPS",
+    "default_style": "S34"
+  },
+  {
+    "id": "E20",
+    "name": "Cadena de causa y efecto",
+    "best_for": "causalidad, riesgos, consecuencias y dependencias",
+    "scene": "mecanismos o bloques de color se activan en cadena mientras figuras blancas intervienen en puntos de control",
+    "carriers": "bloques, estaciones causales, interruptores abstractos y panel final",
+    "variation_logic": "variar longitud, retroalimentación, interrupción y consecuencia",
+    "avoid": "dominó literal como único recurso, flechas con texto, desastre dramático",
+    "default_style": "S02"
+  },
+  {
+    "id": "E21",
+    "name": "Iceberg de profundidad",
+    "best_for": "visible y subyacente, causas ocultas, sustancia y materialidad",
+    "scene": "un iceberg editorial dividido en superficies amplias; equipos blancos exploran capas sobre y bajo el agua",
+    "carriers": "cima, capas sumergidas, plataformas de observación y hallazgo profundo",
+    "variation_logic": "variar número de capas, proporción visible, puntos de exploración y profundidad",
+    "avoid": "fotografía turística, mar agitado, texto incrustado",
+    "default_style": "S06"
+  },
+  {
+    "id": "E22",
+    "name": "Árbol de fundamentos",
+    "best_for": "raíces, principios, capacidades, resultados y crecimiento",
+    "scene": "un árbol escultórico con raíces y ramas anchas; figuras blancas cuidan o conectan módulos de color",
+    "carriers": "raíces, tronco, ramas, frutos geométricos y placa de resultado",
+    "variation_logic": "variar cantidad de raíces, niveles de ramas, madurez y distribución de frutos",
+    "avoid": "árbol infantil, hojas con palabras, paisaje natural dominante",
+    "default_style": "S21"
+  },
+  {
+    "id": "E23",
+    "name": "Planta de transformación",
+    "best_for": "entrada, proceso, resultado, automatización y valor agregado",
+    "scene": "una planta estilizada recibe módulos, los transforma en cámaras visibles y entrega resultados diferenciados",
+    "carriers": "tolvas, cámaras, bandas, contenedores y salida",
+    "variation_logic": "variar entradas, operaciones, controles y tipos de salida",
+    "avoid": "fábrica sombría, humo, engranes enormes o etiquetas técnicas falsas",
+    "default_style": "S08"
+  },
+  {
+    "id": "E24",
+    "name": "Embudo y filtros humanos",
+    "best_for": "selección, depuración, priorización y calidad",
+    "scene": "un flujo de piezas atraviesa filtros físicos; figuras blancas revisan y separan elementos en cada etapa",
+    "carriers": "filtros, bandejas, depósitos de salida y panel de criterio",
+    "variation_logic": "variar número de filtros, bifurcaciones, descartes y resultados",
+    "avoid": "embudo de ventas, porcentajes, basura visual o productos reconocibles",
+    "default_style": "S08"
+  },
+  {
+    "id": "E25",
+    "name": "Corredor de controles",
+    "best_for": "cumplimiento, validaciones, revisiones y checkpoints",
+    "scene": "un recorrido atraviesa estaciones de control de color donde inspectores blancos verifican piezas o documentos abstractos",
+    "carriers": "pórticos, mesas, bandejas, sellos abstractos sin símbolos y salida",
+    "variation_logic": "variar estaciones, desvíos, rechazos, reingreso y resultado",
+    "avoid": "seguridad aeroportuaria literal, ambiente policial, letreros",
+    "default_style": "S03"
+  },
+  {
+    "id": "E26",
+    "name": "Flujo de expedientes",
+    "best_for": "tramitación, revisión documental, turnos y resolución",
+    "scene": "carpetas y contenedores de color avanzan entre mesas donde figuras blancas clasifican, revisan y entregan",
+    "carriers": "carpetas abiertas sin texto, bandejas, módulos de revisión y resolución",
+    "variation_logic": "variar número de mesas, retornos, excepciones y cierre",
+    "avoid": "documentos legibles, sellos oficiales, oficina de stock",
+    "default_style": "S04"
+  },
+  {
+    "id": "E27",
+    "name": "Órbita de equipos",
+    "best_for": "áreas coordinadas, gobernanza distribuida y colaboración",
+    "scene": "equipos blancos trabajan sobre plataformas orbitales de color alrededor de un núcleo compartido",
+    "carriers": "plataformas, anillos, cápsulas y núcleo central limpio",
+    "variation_logic": "variar equipos, órbitas, dependencias y nivel de centralización",
+    "avoid": "astronautas, ciencia ficción, espacio vacío o planetas sin función",
+    "default_style": "S06"
+  },
+  {
+    "id": "E28",
+    "name": "Investigación con lupa",
+    "best_for": "detalle, auditoría, materialidad, evidencia y excepciones",
+    "scene": "figuras blancas inspeccionan un objeto o expediente abstracto mediante grandes lentes que revelan paneles de detalle",
+    "carriers": "lentes amplios, bandeja central, paneles de hallazgo y conclusión",
+    "variation_logic": "variar número de hallazgos, capas, escalas y evidencia principal",
+    "avoid": "detective de caricatura, huellas, texto documental o crimen",
+    "default_style": "S02"
+  },
+  {
+    "id": "E29",
+    "name": "Grúa de módulos",
+    "best_for": "arquitectura, componentes, integración y priorización",
+    "scene": "una grúa limpia coloca grandes módulos de color mientras equipos blancos guían cada pieza",
+    "carriers": "módulos suspendidos, base, plataformas y bloque final",
+    "variation_logic": "variar altura, secuencia de montaje, módulos pendientes y configuración final",
+    "avoid": "obra realista saturada, anuncios, peligro o maquinaria sucia",
+    "default_style": "S08"
+  },
+  {
+    "id": "E30",
+    "name": "Relevo de responsabilidades",
+    "best_for": "handoff, coordinación, continuidad y roles",
+    "scene": "figuras blancas entregan entre sí objetos geométricos de color a lo largo de estaciones claramente separadas",
+    "carriers": "objetos entregados, estaciones, plataformas y meta final",
+    "variation_logic": "variar número de relevos, tipo de objeto, distancias y verificación",
+    "avoid": "carrera deportiva literal, podio, uniformes o gestos heroicos",
+    "default_style": "S09"
+  },
+  {
+    "id": "E31",
+    "name": "Arquitectos del sistema",
+    "best_for": "diseño, planeación, arquitectura y modelos operativos",
+    "scene": "figuras blancas trabajan alrededor de un plano sin texto y levantan módulos tridimensionales de color desde él",
+    "carriers": "plano, módulos emergentes, mesas laterales y marco de objetivo",
+    "variation_logic": "variar escala, cantidad de módulos, fase de diseño y vista",
+    "avoid": "planos con cotas, cascos de marca, oficina genérica",
+    "default_style": "S05"
+  },
+  {
+    "id": "E32",
+    "name": "Contención de riesgos",
+    "best_for": "prevención, respuesta, excepción y mitigación",
+    "scene": "equipos blancos construyen barreras o aíslan un elemento rojo dentro de un sistema ordenado",
+    "carriers": "barreras, zonas seguras, foco de riesgo y paneles de respuesta",
+    "variation_logic": "variar fuente, perímetro, capas de defensa y estado final",
+    "avoid": "incendios realistas, alarma extrema, símbolos de peligro o miedo",
+    "default_style": "S01"
+  },
+  {
+    "id": "E33",
+    "name": "Contenedores de valor",
+    "best_for": "categorías, portafolios, distribución y asignación de recursos",
+    "scene": "recipientes o módulos de color reciben objetos seleccionados por figuras blancas según su función",
+    "carriers": "contenedores grandes, bandejas de entrada y plataforma de comparación",
+    "variation_logic": "variar cantidad, tamaño, equilibrio, flujo y criterios",
+    "avoid": "basureros, cocina, símbolos de reciclaje o etiquetas",
+    "default_style": "S07"
+  },
+  {
+    "id": "E34",
+    "name": "Tren de etapas",
+    "best_for": "secuencia, programa, dependencias y entrega",
+    "scene": "un tren editorial de módulos de color conecta estaciones; equipos blancos cargan y descargan contenido abstracto",
+    "carriers": "vagones, estaciones, plataforma inicial y destino",
+    "variation_logic": "variar vagones, estaciones, ramales, cargas y llegada",
+    "avoid": "ferrocarril nostálgico, paisaje, nombres de estación o humo",
+    "default_style": "S08"
+  },
+  {
+    "id": "E35",
+    "name": "Exploración submarina de capas",
+    "best_for": "profundidad, diagnóstico, información oculta y análisis",
+    "scene": "un sumergible o plataforma de investigación desciende por estratos de color con estaciones amplias",
+    "carriers": "estratos, cápsulas de observación, muestras y hallazgo profundo",
+    "variation_logic": "variar profundidad, número de capas, ruta y foco de estudio",
+    "avoid": "aventura oceánica, fauna decorativa, oscuridad que reduzca legibilidad",
+    "default_style": "S06"
+  },
+  {
+    "id": "E36",
+    "name": "Globos de prioridad",
+    "best_for": "portafolio, peso relativo, oportunidad y selección",
+    "scene": "globos aerostáticos geométricos de color con canastas limpias ascienden a distintas alturas mientras figuras blancas preparan el despegue",
+    "carriers": "envolventes, canastas, plataformas y zona de destino",
+    "variation_logic": "variar altura, tamaño, número, lastre y secuencia de salida",
+    "avoid": "postal turística, nubes sobre texto, banderas o logotipos",
+    "default_style": "S10"
+  },
+  {
+    "id": "E37",
+    "name": "Río de aportaciones",
+    "best_for": "fuentes, convergencia, causalidad y flujo de valor",
+    "scene": "varios afluentes de color convergen en un cauce principal con plataformas de observación y equipos blancos",
+    "carriers": "afluentes anchos, islas-panel, cauce central y desembocadura",
+    "variation_logic": "variar fuentes, confluencias, desvíos, controles y salida",
+    "avoid": "paisaje naturalista, agua sobre las áreas de texto o puentes decorativos",
+    "default_style": "S21"
+  },
+  {
+    "id": "E38",
+    "name": "Sala de control física",
+    "best_for": "monitoreo, métricas, gobernanza y respuesta",
+    "scene": "una sala sobria donde paneles físicos de color y una gran superficie central reciben gráficas nativas en PowerPoint",
+    "carriers": "marco central vacío, consolas sin interfaz, placas laterales y zona de alerta",
+    "variation_logic": "variar número de indicadores, foco, equipos y nivel de intervención",
+    "avoid": "dashboard rasterizado, pantallas con números, ciencia ficción",
+    "default_style": "S05"
+  },
+  {
+    "id": "E39",
+    "name": "Plaza de actores",
+    "best_for": "stakeholders, ecosistema, intereses y coordinación",
+    "scene": "una plaza isométrica organizada en puestos o pabellones de color conectados por recorridos; figuras blancas interactúan",
+    "carriers": "pabellones, mesas, zonas de encuentro y núcleo común",
+    "variation_logic": "variar comunidades, cercanía, intercambios y actor central",
+    "avoid": "mercado folclórico, anuncios, multitudes o decoración urbana",
+    "default_style": "S34"
+  },
+  {
+    "id": "E40",
+    "name": "Mecanismo de precisión",
+    "best_for": "interdependencia, sincronización, operación y fallas",
+    "scene": "un mecanismo contemporáneo con ruedas y placas grandes, operado por figuras blancas en puntos de ajuste",
+    "carriers": "ruedas con centros limpios, placas, palancas y módulo de salida",
+    "variation_logic": "variar piezas, niveles, acoplamientos, interrupción y sincronía",
+    "avoid": "engranes como fondo genérico, reloj antiguo, exceso de piezas pequeñas",
+    "default_style": "S05"
+  },
+  {
+    "id": "E41",
+    "name": "Tubería con válvulas",
+    "best_for": "flujo, controles, cuellos de botella y distribución",
+    "scene": "una red de tuberías anchas de color atraviesa válvulas operadas por figuras blancas y desemboca en depósitos",
+    "carriers": "válvulas, depósitos, tramos de tubería y panel de resultado",
+    "variation_logic": "variar ramales, presiones visuales, bloqueos, retornos y salidas",
+    "avoid": "planta industrial sucia, indicadores numéricos o fugas dramáticas",
+    "default_style": "S08"
+  },
+  {
+    "id": "E42",
+    "name": "Llaves y accesos",
+    "best_for": "permisos, condiciones, seguridad, cumplimiento y habilitadores",
+    "scene": "figuras blancas trasladan llaves geométricas o piezas de acceso hacia portales y módulos de color",
+    "carriers": "llaves grandes con caras limpias, portales, cerraduras abstractas y zona habilitada",
+    "variation_logic": "variar accesos, dependencias, secuencia, llaves maestras y bloqueos",
+    "avoid": "candado de ciberseguridad cliché, texto, insignias o bóveda bancaria",
+    "default_style": "S03"
+  },
+  {
+    "id": "E43",
+    "name": "Mesa de deliberación",
+    "best_for": "decisión colegiada, alternativas, evidencia y consenso",
+    "scene": "figuras blancas se distribuyen alrededor de una mesa escultórica con paneles y objetos de color perfectamente ordenados",
+    "carriers": "segmentos de mesa, bandejas de evidencia, panel central y decisión final",
+    "variation_logic": "variar participantes, alternativas, evidencia, equilibrio y conclusión",
+    "avoid": "sala de juntas de stock, laptops, papeles legibles o apretones de manos",
+    "default_style": "S09"
+  },
+  {
+    "id": "E44",
+    "name": "Escenario y focos",
+    "best_for": "idea principal, prioridades, comparación y revelación",
+    "scene": "un escenario minimalista con plataformas de color; focos suaves destacan una o varias piezas mientras técnicos blancos ajustan la escena",
+    "carriers": "plataformas, telones-panel, pedestales y foco principal",
+    "variation_logic": "variar número de protagonistas, intensidad, secuencia y contraste",
+    "avoid": "teatro ornamental, celebridades, texto luminoso o espectáculo",
+    "default_style": "S01"
+  },
+  {
+    "id": "E45",
+    "name": "Carriles de comparación",
+    "best_for": "alternativas, desempeño, escenarios y benchmarking",
+    "scene": "dos o más carriles tridimensionales paralelos contienen estaciones y obstáculos comparables; figuras blancas avanzan por cada ruta",
+    "carriers": "carriles anchos, estaciones, hitos y meta común",
+    "variation_logic": "variar alternativas, longitud, obstáculos, convergencia y resultados",
+    "avoid": "pista deportiva literal, podio, números de carril o competencia infantil",
+    "default_style": "S08"
+  },
+  {
+    "id": "E46",
+    "name": "Red de seguridad",
+    "best_for": "respaldo, contingencia, mitigación y recuperación",
+    "scene": "una red o plataforma de protección sostiene módulos de color mientras equipos blancos refuerzan puntos críticos",
+    "carriers": "mallas amplias, soportes, módulos protegidos y ruta de recuperación",
+    "variation_logic": "variar capas de respaldo, puntos críticos, caída controlada y restitución",
+    "avoid": "circo, caída humana, dramatismo o red decorativa sin función",
+    "default_style": "S07"
+  },
+  {
+    "id": "E47",
+    "name": "Escalones de capacidades",
+    "best_for": "madurez, aprendizaje, implementación y avance",
+    "scene": "figuras blancas construyen y ascienden peldaños de color, trasladando bloques entre niveles",
+    "carriers": "escalones anchos, bloques, descansos y plataforma superior",
+    "variation_logic": "variar número de niveles, carga, retornos, equipos y meta",
+    "avoid": "escalera vacía, flecha genérica, números o trofeo",
+    "default_style": "S08"
+  },
+  {
+    "id": "E48",
+    "name": "Tejido de conexiones",
+    "best_for": "integración, relaciones, cultura, redes y coherencia",
+    "scene": "tiras o cintas de color son tejidas por figuras blancas para formar paneles amplios y una pieza común",
+    "carriers": "cintas anchas, marcos de tejido, segmentos y resultado final",
+    "variation_logic": "variar número de hilos, cruces, patrones, tensiones y forma final",
+    "avoid": "artesanía folclórica, textura que invada el texto, líneas demasiado finas",
+    "default_style": "S07"
+  },
+  {
+    "id": "E49",
+    "name": "Galería de evidencias",
+    "best_for": "casos, hallazgos, fuentes, portafolio y selección",
+    "scene": "una galería contemporánea con marcos o pedestales de color; curadores blancos ordenan las piezas",
+    "carriers": "marcos vacíos, pedestales, muro principal y ficha final sin texto",
+    "variation_logic": "variar recorrido, cantidad de casos, pieza central, agrupaciones y cierre",
+    "avoid": "obras de arte reconocibles, museo decorativo, rótulos",
+    "default_style": "S10"
+  },
+  {
+    "id": "E50",
+    "name": "Plataforma de lanzamiento",
+    "best_for": "inicio, preparación, habilitadores, plan y siguiente etapa",
+    "scene": "una plataforma modular prepara el lanzamiento de un objeto abstracto mientras equipos blancos completan comprobaciones",
+    "carriers": "plataforma, módulos de preparación, paneles laterales y trayectoria de salida",
+    "variation_logic": "variar fases, equipos, objeto, dependencias y momento previo al lanzamiento",
+    "avoid": "cohete espacial literal dominante, humo, banderas, cuenta regresiva o texto",
+    "default_style": "S06"
+  }
+]

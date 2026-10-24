@@ -1,0 +1,756 @@
+{
+  "source": "Skill_Edicion_de_Presentaciones_PowerPoint_Transportable_2026-09-24.zip",
+  "files": [
+    {
+      "path": "Muestras escenas portadoras/E02_obreros_blancos_portadores.png",
+      "sha256_original": "90c5c92eb4ad6c4f24dca80fab1634e3c3291d749b84e1e2bc53f31c46b02e9b",
+      "embedded": false
+    },
+    {
+      "path": "Muestras escenas portadoras/CATALOGO DE 50 FAMILIAS ESCENICAS.md",
+      "sha256_original": "9a208b2a10af35cec1b58419c72609b0ac6e31c1810942594f0443e54ea194a1",
+      "embedded": true,
+      "sha256_installed": "9a208b2a10af35cec1b58419c72609b0ac6e31c1810942594f0443e54ea194a1"
+    },
+    {
+      "path": "Muestras escenas portadoras/E01_sistema_solar_con_tarjetas.png",
+      "sha256_original": "cb9c166cdd90a8bd2c07f88c9ee75ad49b662ed51de33fec609d576a541a79c3",
+      "embedded": false
+    },
+    {
+      "path": "Muestras escenas portadoras/E03_escalera_financiera_roja.png",
+      "sha256_original": "e90a63b3b52fab09ebf2f4c0127ce9a4e661603c0b9844eef982cf09432309c6",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/LEEME - 20 familias texto grande.md",
+      "sha256_original": "60a23d93e2346dd92ee14169ac7a189116b89341fcb5b1764b70fb023722ffea",
+      "embedded": true,
+      "sha256_installed": "60a23d93e2346dd92ee14169ac7a189116b89341fcb5b1764b70fb023722ffea"
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/02 Catalogo y seleccion/Guia_seleccion_20_familias.md",
+      "sha256_original": "931021002a234a4f90e00a289d6fee139482d1375020c5f052dcc9f2839f9475",
+      "embedded": true,
+      "sha256_installed": "931021002a234a4f90e00a289d6fee139482d1375020c5f052dcc9f2839f9475"
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/02 Catalogo y seleccion/sugerir_grupos_texto_grande.py",
+      "sha256_original": "139fe1d8e671fef75d4ebf2f0ce6f2226b383f23ba4d8ca8579b46007378878a",
+      "embedded": true,
+      "sha256_installed": "139fe1d8e671fef75d4ebf2f0ce6f2226b383f23ba4d8ca8579b46007378878a"
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/02 Catalogo y seleccion/Catalogo_20_familias_texto_grande.json",
+      "sha256_original": "abf001c2664c763617fd72386491a55f4e27a909758c2ade9cc9905419a82b52",
+      "embedded": true,
+      "sha256_installed": "abf001c2664c763617fd72386491a55f4e27a909758c2ade9cc9905419a82b52"
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT07_taller_implementacion.png",
+      "sha256_original": "cea7e2e30bcdbf78b399d6f1b3e37cd525433213567d7d883b181eb3a0629c6b",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT03_archivo_tres_bandas.png",
+      "sha256_original": "06bc3aa96e9b277b9e691979748da7efee0ffa8843ee9d961a3bfdcc21754397",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT17_orbita_estrategica.png",
+      "sha256_original": "5ace9ab8d00a5513a918fe6741e5c6cfb892fd911ab12ca6c4c01db3ba753b83",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT15_mapa_territorial_expediente.png",
+      "sha256_original": "eec7adf1d3ea419a6c61bc5e9ee2c0ad719b3fd2f4443ed92f420af5184e0e49",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT09_linea_tiempo_museografica.png",
+      "sha256_original": "cf0e9d4af195de6caa99e7211a6e8878dfd5975cdd6cd5acf34dcf2aa95ddda1",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT08_escalera_desarrollo.png",
+      "sha256_original": "b3c55435d5f73180618d1f4c7cee987488ae14c91e5f33d7da4ce1ac28b5f44c",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT13_fortaleza_riesgos.png",
+      "sha256_original": "ce806e7252914d31e01e4f12b0c7c1c630acbf5478a6fad5d8371c13e23b0555",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT19_cadena_proceso_documental.png",
+      "sha256_original": "74aea5a3e16682294f1fc19a2e2d05d1b2c2eca522a26586bda39e182a831d69",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT16_consejo_actores.png",
+      "sha256_original": "a85774a75850aa76ab13e18715fbd9b34cf347fa1a5c4113ee4302ee6302016e",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT05_mesa_deliberacion.png",
+      "sha256_original": "8f1e4ca20b7bb2f2b9249fffb2cc48726f89ff849181ad1bbd6e8d8e6334e390",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT20_sala_editorial_cierre.png",
+      "sha256_original": "e530186988c5497e849642f6b18f5ac25b8681145149d2e017e348ef8ed486e9",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT10_centro_control.png",
+      "sha256_original": "bbb7a947dfeed8d685c103ef21999c79516d19a8c66365a7eb34618f01df7fe1",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT06_balanza_comparativa_extensa.png",
+      "sha256_original": "318dd590c42702c69813fba0ad0d365686b893bc4ad8ce80461588b5b0adde50",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT12_puente_transicion.png",
+      "sha256_original": "718487e289bb4aeedce7718dc2924e11381b728340998b92883e538fa8bb0275",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT18_tablero_financiero_escalonado.png",
+      "sha256_original": "00449089df607cd708bf59942943b1736d98e336e005c2b558fafe5b3b12a716",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT11_plano_tecnico_desplegado.png",
+      "sha256_original": "51f10942322868c38bf0d91faae2445f6c521181136e845ae01885acb0ec2afa",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT02_libro_abierto_documental.png",
+      "sha256_original": "ceec005c21d9b3dabe03bd2886e474a70d47558e10f115fe75850d81c59a6cdf",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT04_expediente_juridico_protegido.png",
+      "sha256_original": "106dd87d395599a0a08a875606bac49b2ef6736c933a41b7e9fab735fe5a38b8",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT14_portico_principios.png",
+      "sha256_original": "2309b6fb6e14da801580ee03162ac1234fdb329c032fc649b2a48ce5eef1292c",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/01 Maestros/LT01_macropanel_institucional.png",
+      "sha256_original": "5ca2ed9d73120f842fc65cfacba94ef2bdc4a2df7ddf2898d013f2479b871be8",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/00 Catalogo visual/Catalogo_20_familias_texto_grande.png",
+      "sha256_original": "6062e85e429e1318cb52d2e037599f53936f18c6cf2c5b8ca20351946feed8fc",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/00 Catalogo visual/Catalogo_texto_grande_01.png",
+      "sha256_original": "8a46d77435e6d334387134efcd2a7b40897c00e89027ae71f8296d7776dd718b",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/00 Catalogo visual/Catalogo_texto_grande_02.png",
+      "sha256_original": "c34e5fe4002049d8521343513b1ccbbe459eeeb1539d56bb98bc8e741eeb193c",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/00 Catalogo visual/Catalogo_texto_grande_03.png",
+      "sha256_original": "a76defdbe0094a9f838e5e86f2b63399db447cc95435c7d0567924626e143035",
+      "embedded": false
+    },
+    {
+      "path": "Biblioteca texto grande - 20 grupos/00 Catalogo visual/Catalogo_texto_grande_04.png",
+      "sha256_original": "86857a8f2489147ed8f9543aec3ff76a8a15573ffca407219ee55404de684a25",
+      "embedded": false
+    },
+    {
+      "path": "LEEME - Instalación y uso.md",
+      "sha256_original": "755af815a85ba405ee0f9d2bcfcc89cfd6f590d8d2c4be3ae5d3d4bed1864c89",
+      "embedded": true,
+      "sha256_installed": "755af815a85ba405ee0f9d2bcfcc89cfd6f590d8d2c4be3ae5d3d4bed1864c89"
+    },
+    {
+      "path": "Kits mixtos profesionales/Mapa_8_kits_mixtos_profesionales.png",
+      "sha256_original": "4f06f91d4d4df520be9d3ac6c1953a73dbf7a76dc3afd9e902582dcb65505415",
+      "embedded": false
+    },
+    {
+      "path": "Kits mixtos profesionales/Catalogo_8_kits_mixtos_profesionales.json",
+      "sha256_original": "edd8f3b583553c14e2f557f67321a19409ab98c617703e360a3ef89458e19763",
+      "embedded": true,
+      "sha256_installed": "edd8f3b583553c14e2f557f67321a19409ab98c617703e360a3ef89458e19763"
+    },
+    {
+      "path": "Kits mixtos profesionales/Guia_modo_mixto_kit_profesional.md",
+      "sha256_original": "f98cabf290d2b412fb349290fb6e10785f5ad3a19b6db3a3c177922360f929c0",
+      "embedded": true,
+      "sha256_installed": "f98cabf290d2b412fb349290fb6e10785f5ad3a19b6db3a3c177922360f929c0"
+    },
+    {
+      "path": "Kits mixtos profesionales/sugerir_grupos_texto_grande.py",
+      "sha256_original": "139fe1d8e671fef75d4ebf2f0ce6f2226b383f23ba4d8ca8579b46007378878a",
+      "embedded": true,
+      "sha256_installed": "139fe1d8e671fef75d4ebf2f0ce6f2226b383f23ba4d8ca8579b46007378878a"
+    },
+    {
+      "path": "Kits mixtos profesionales/LEEME - Kits mixtos.md",
+      "sha256_original": "e68852ac148fe64f11f69bfa0e4c32c30067c799a36c78545469e4eaffc071f1",
+      "embedded": true,
+      "sha256_installed": "e68852ac148fe64f11f69bfa0e4c32c30067c799a36c78545469e4eaffc071f1"
+    },
+    {
+      "path": "Kits mixtos profesionales/Catalogo_20_familias_texto_grande.json",
+      "sha256_original": "abf001c2664c763617fd72386491a55f4e27a909758c2ade9cc9905419a82b52",
+      "embedded": true,
+      "sha256_installed": "abf001c2664c763617fd72386491a55f4e27a909758c2ade9cc9905419a82b52"
+    },
+    {
+      "path": "Kits mixtos profesionales/planificar_kit_mixto.py",
+      "sha256_original": "b49effe8227a6fa6ae5293ad54ca40ed0035c7c344deb4f4b26513a1fbc49640",
+      "embedded": true,
+      "sha256_installed": "b49effe8227a6fa6ae5293ad54ca40ed0035c7c344deb4f4b26513a1fbc49640"
+    },
+    {
+      "path": "INFORME - Validación integral v7.md",
+      "sha256_original": "0c4be26e5246bd3d3d771518cc64d42f85cb3204556f29b9bbffc1fe586c6525",
+      "embedded": true,
+      "sha256_installed": "0c4be26e5246bd3d3d771518cc64d42f85cb3204556f29b9bbffc1fe586c6525"
+    },
+    {
+      "path": "Muestras texto largo/D06_pagina_editorial_literal.png",
+      "sha256_original": "037850dd6e18516679b37f084fe0f09da0f2b2052267f103416b2e8504adb3aa",
+      "embedded": false
+    },
+    {
+      "path": "Muestras texto largo/Catalogo_opciones_texto_largo.png",
+      "sha256_original": "c96eae63c54f8febbf4285cf6398725dfcc98e73cd019b43f5e44969f5d54b19",
+      "embedded": false
+    },
+    {
+      "path": "Muestras texto largo/D03_cuatro_paneles_de_proceso.png",
+      "sha256_original": "e0bb1c0b287dd56a37910db4cf98a6cf7989c1b766a63dc628c4b69dc79595bf",
+      "embedded": false
+    },
+    {
+      "path": "Muestras texto largo/D04_dos_columnas_en_balanza.png",
+      "sha256_original": "1942d0dcec2f53e0724b14f69898b8c160250cdae1b097b26005e92e7e9cf6da",
+      "embedded": false
+    },
+    {
+      "path": "Muestras texto largo/D05_tres_bandas_documentales.png",
+      "sha256_original": "3f8fb869361c2af90ce38d28fef25ab33547adc12b8363815141d0cafce6d8ac",
+      "embedded": false
+    },
+    {
+      "path": "Muestras texto largo/D04_macropanel_sostenido.png",
+      "sha256_original": "f3c659783a00d879d5d76465e99b527a0b62a35af61c8eb3162ae287c658d04d",
+      "embedded": false
+    },
+    {
+      "path": "Muestras texto largo/D05_tablero_doble_columna_deliberacion.png",
+      "sha256_original": "585dec4d65547db6629c58f1094a46c2bb500d0c8f5c6852fc3af7c87dfb0568",
+      "embedded": false
+    },
+    {
+      "path": "INFORME - Validación integral v6.md",
+      "sha256_original": "5ae8c38fb3f963526671a33da1ba40fb4f4cfdf5c73b02550d44ebde740e22f9",
+      "embedded": true,
+      "sha256_installed": "5ae8c38fb3f963526671a33da1ba40fb4f4cfdf5c73b02550d44ebde740e22f9"
+    },
+    {
+      "path": "INFORME - Validación integral v10.md",
+      "sha256_original": "278fb7c2bbd5af2b0e4f4533be285d7629383ab411923457b9a2707e2ae8ba3b",
+      "embedded": true,
+      "sha256_installed": "278fb7c2bbd5af2b0e4f4533be285d7629383ab411923457b9a2707e2ae8ba3b"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/catalogo-8-kits-mixtos-profesionales.json",
+      "sha256_original": "edd8f3b583553c14e2f557f67321a19409ab98c617703e360a3ef89458e19763",
+      "embedded": true,
+      "sha256_installed": "edd8f3b583553c14e2f557f67321a19409ab98c617703e360a3ef89458e19763"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/catalogo-estilos-50.json",
+      "sha256_original": "59442e43cf2c0469b4f4d077eca27775467575db33cbb249a62be52a98955b79",
+      "embedded": true,
+      "sha256_installed": "59442e43cf2c0469b4f4d077eca27775467575db33cbb249a62be52a98955b79"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/construccion-presentacion.md",
+      "sha256_original": "2460c613ddf48902a7e4166b6eb6afa7f05894ea369f325e044ec7e6cc738b77",
+      "embedded": true,
+      "sha256_installed": "2460c613ddf48902a7e4166b6eb6afa7f05894ea369f325e044ec7e6cc738b77"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/catalogo-densidades-texto-6.json",
+      "sha256_original": "8dcc9f0beb38183d73d64362c6a441b7bac0881f2d9ccc808b5530beaca714fa",
+      "embedded": true,
+      "sha256_installed": "8dcc9f0beb38183d73d64362c6a441b7bac0881f2d9ccc808b5530beaca714fa"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/ingesta-documentos.md",
+      "sha256_original": "1d5216b887310de8f83d3321600a9ce06d3dd07ccd550228296061c945892bb0",
+      "embedded": true,
+      "sha256_installed": "1d5216b887310de8f83d3321600a9ce06d3dd07ccd550228296061c945892bb0"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/preservacion-quirurgica-pptx.md",
+      "sha256_original": "ac462f205ace3ae93bb85bed9bc0beea6f54f33e42d7e91a42ebe4847f89ed0c",
+      "embedded": true,
+      "sha256_installed": "ac462f205ace3ae93bb85bed9bc0beea6f54f33e42d7e91a42ebe4847f89ed0c"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/texto-largo-en-escenas.md",
+      "sha256_original": "bb5932c1c9f03c8852b8c739a3b26450a5b06eedb3d61f515c0f2cac8632d32f",
+      "embedded": true,
+      "sha256_installed": "bb5932c1c9f03c8852b8c739a3b26450a5b06eedb3d61f515c0f2cac8632d32f"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/catalogo-20-familias-texto-grande.json",
+      "sha256_original": "abf001c2664c763617fd72386491a55f4e27a909758c2ade9cc9905419a82b52",
+      "embedded": true,
+      "sha256_installed": "abf001c2664c763617fd72386491a55f4e27a909758c2ade9cc9905419a82b52"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/modo-mixto-kit-profesional.md",
+      "sha256_original": "f98cabf290d2b412fb349290fb6e10785f5ad3a19b6db3a3c177922360f929c0",
+      "embedded": true,
+      "sha256_installed": "f98cabf290d2b412fb349290fb6e10785f5ad3a19b6db3a3c177922360f929c0"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/auditoria-visual-reedicion-humana.md",
+      "sha256_original": "f1a28b6ce992c2d7eed21006c817792eb1799a95b141c224fa7e374d84b148ce",
+      "embedded": true,
+      "sha256_installed": "f1a28b6ce992c2d7eed21006c817792eb1799a95b141c224fa7e374d84b148ce"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/catalogo-composiciones-50.json",
+      "sha256_original": "215d83bac424ada4c79de70eee9952e534d0e8749954c9d8b932ad06b274d2e6",
+      "embedded": true,
+      "sha256_installed": "215d83bac424ada4c79de70eee9952e534d0e8749954c9d8b932ad06b274d2e6"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/plantilla-escultorica-negro-oro.md",
+      "sha256_original": "c81096d2f2e92767c4adb943a94fbb3c6ef898081119bedf74078d31ea945160",
+      "embedded": true,
+      "sha256_installed": "c81096d2f2e92767c4adb943a94fbb3c6ef898081119bedf74078d31ea945160"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/coherencia-semantica-imagen-texto.md",
+      "sha256_original": "a86caa419f1c65d7197695f5c7a57f474c07c623d188bc3f6fed9efe73327410",
+      "embedded": true,
+      "sha256_installed": "a86caa419f1c65d7197695f5c7a57f474c07c623d188bc3f6fed9efe73327410"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/integracion-imagen-texto-editable.md",
+      "sha256_original": "1cd42850bd92dfacd43781c10a01d05330312ae27353d5df799be4866ae0caa4",
+      "embedded": true,
+      "sha256_installed": "1cd42850bd92dfacd43781c10a01d05330312ae27353d5df799be4866ae0caa4"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/concordancia-morfologica-y-encaje.md",
+      "sha256_original": "18cdc4c8560b583de9420e7bdc87bb6582ee2819a44424b1539378499da056fe",
+      "embedded": true,
+      "sha256_installed": "18cdc4c8560b583de9420e7bdc87bb6582ee2819a44424b1539378499da056fe"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/diagramas-editables.md",
+      "sha256_original": "48b94fa512cae9ba9f56b9450f0e9962ee07f3adb787bc402cea10aa6b0e41a2",
+      "embedded": true,
+      "sha256_installed": "48b94fa512cae9ba9f56b9450f0e9962ee07f3adb787bc402cea10aa6b0e41a2"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/prompt-maestro-peno-01-proyeccion-v15.md",
+      "sha256_original": "c8060a4fb0409b374882d758988c3776fd7c93727b482762af526780650a57f7",
+      "embedded": true,
+      "sha256_installed": "c8060a4fb0409b374882d758988c3776fd7c93727b482762af526780650a57f7"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/seleccion-20-familias-texto-grande.md",
+      "sha256_original": "931021002a234a4f90e00a289d6fee139482d1375020c5f052dcc9f2839f9475",
+      "embedded": true,
+      "sha256_installed": "931021002a234a4f90e00a289d6fee139482d1375020c5f052dcc9f2839f9475"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/auditoria-hostil-word-powerpoint.md",
+      "sha256_original": "f90b4fe8eaacebb08539589277a8d13eff208ecf4e95c2b27a80e2cec0c1ff4e",
+      "embedded": true,
+      "sha256_installed": "f90b4fe8eaacebb08539589277a8d13eff208ecf4e95c2b27a80e2cec0c1ff4e"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/modo-proyeccion-y-reedicion-humana.md",
+      "sha256_original": "80de9ec63e71a2a061878a974bf2c96077d9750d82b9faff220f88a7c08e43ae",
+      "embedded": true,
+      "sha256_installed": "80de9ec63e71a2a061878a974bf2c96077d9750d82b9faff220f88a7c08e43ae"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/biblioteca-visual-50x50.md",
+      "sha256_original": "0f4b231a41680733e146accbd0d579c7586ceedcecfa1fcfb59c5b0683d5525f",
+      "embedded": true,
+      "sha256_installed": "0f4b231a41680733e146accbd0d579c7586ceedcecfa1fcfb59c5b0683d5525f"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/protocolo-portadores-exactos.md",
+      "sha256_original": "10d6065f7e9b7f644c3e2d2291faf9168319ed2cd196ede3c656af13f49979e4",
+      "embedded": true,
+      "sha256_installed": "10d6065f7e9b7f644c3e2d2291faf9168319ed2cd196ede3c656af13f49979e4"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/contexto-academico.md",
+      "sha256_original": "86810cb97f54303891445d65d39c78530a70d437355778d6f56b259d91a31160",
+      "embedded": true,
+      "sha256_installed": "86810cb97f54303891445d65d39c78530a70d437355778d6f56b259d91a31160"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/catalogo-familias-escenicas-50.json",
+      "sha256_original": "023e62c637bd53d1239fa437ecbe0374d4916b3e45ce6cfb399411db7977114b",
+      "embedded": true,
+      "sha256_installed": "023e62c637bd53d1239fa437ecbe0374d4916b3e45ce6cfb399411db7977114b"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/identidad-visual.md",
+      "sha256_original": "307e1acf5688b3bbc7c5c128e8405b6830234f0f3978033445fc55ead1082a11",
+      "embedded": true,
+      "sha256_installed": "307e1acf5688b3bbc7c5c128e8405b6830234f0f3978033445fc55ead1082a11"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/escenas-portadoras-de-texto.md",
+      "sha256_original": "cf07e03e874fd9b03a1a8684ee8b232aa02b5d5c37e69756b79c88d2c48fe132",
+      "embedded": true,
+      "sha256_installed": "cf07e03e874fd9b03a1a8684ee8b232aa02b5d5c37e69756b79c88d2c48fe132"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/tipos-de-visual.md",
+      "sha256_original": "17d3e751dac4594a90880fd38716d3ba9fcd5aefe8d54bdaf40ce456e8610b4d",
+      "embedded": true,
+      "sha256_installed": "17d3e751dac4594a90880fd38716d3ba9fcd5aefe8d54bdaf40ce456e8610b4d"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/prompt-maestro-general-arranque.md",
+      "sha256_original": "cc62ff6ba0183ab36e5873df82a1c56b9a260820292de64b39468767b2672724",
+      "embedded": true,
+      "sha256_installed": "cc62ff6ba0183ab36e5873df82a1c56b9a260820292de64b39468767b2672724"
+    },
+    {
+      "path": "visuales-diplomado-ia/references/plantilla-prompt.md",
+      "sha256_original": "0f4970d103cb0197b67fd2c609c0580028b521318de1315ae12532192fc8c871",
+      "embedded": true,
+      "sha256_installed": "0f4970d103cb0197b67fd2c609c0580028b521318de1315ae12532192fc8c871"
+    },
+    {
+      "path": "visuales-diplomado-ia/agents/openai.yaml",
+      "sha256_original": "3def531574754371b6b3188a909792535f9c803659509aba58f5a5d1ccdd16af",
+      "embedded": true,
+      "sha256_installed": "3def531574754371b6b3188a909792535f9c803659509aba58f5a5d1ccdd16af"
+    },
+    {
+      "path": "visuales-diplomado-ia/scripts/auditar_pptx_pptx.py",
+      "sha256_original": "a089495577220742c053ce0490214dccffa98f0e2309304a1f149df0cee67da3",
+      "embedded": true,
+      "sha256_installed": "a089495577220742c053ce0490214dccffa98f0e2309304a1f149df0cee67da3"
+    },
+    {
+      "path": "visuales-diplomado-ia/scripts/auditar_texto_word_pptx.py",
+      "sha256_original": "11f4b4b24d6ad7897bdfa8cbba836c4b408acbc0f0e89668ac64f5957d8098d0",
+      "embedded": true,
+      "sha256_installed": "11f4b4b24d6ad7897bdfa8cbba836c4b408acbc0f0e89668ac64f5957d8098d0"
+    },
+    {
+      "path": "visuales-diplomado-ia/scripts/sugerir_grupos_texto_grande.py",
+      "sha256_original": "52afe0e2711f1dfc1cfb26725300a44c40c56ae56dcb1e175cc0ba0b4df8d4a6",
+      "embedded": true,
+      "sha256_installed": "52afe0e2711f1dfc1cfb26725300a44c40c56ae56dcb1e175cc0ba0b4df8d4a6"
+    },
+    {
+      "path": "visuales-diplomado-ia/scripts/construir_prompt_50x50.py",
+      "sha256_original": "373778048ee02af0d0042e7a41633c660d9629642dd6d65f29176c47e4b1e3fb",
+      "embedded": true,
+      "sha256_installed": "373778048ee02af0d0042e7a41633c660d9629642dd6d65f29176c47e4b1e3fb"
+    },
+    {
+      "path": "visuales-diplomado-ia/scripts/validar_sistema_visual.py",
+      "sha256_original": "d6a039610153de793eb040880197934347f8c121523ed0dc6c81174099c5c42b",
+      "embedded": true,
+      "sha256_installed": "d3b9da2ebb2c9b0932ab8278410491a926591f0d302c267666d3538743c5a570"
+    },
+    {
+      "path": "visuales-diplomado-ia/scripts/medir_referencia_pptx.py",
+      "sha256_original": "9610cbd8715a55cdb4e845e55738e219fa82ed6b2e380eedad0a48cbf1ba702a",
+      "embedded": true,
+      "sha256_installed": "9610cbd8715a55cdb4e845e55738e219fa82ed6b2e380eedad0a48cbf1ba702a"
+    },
+    {
+      "path": "visuales-diplomado-ia/scripts/planificar_kit_mixto.py",
+      "sha256_original": "ff0c01d6540dc3b608ac02af09af1592eb498039be66f9a3cc1c5fe8bfb8cc7d",
+      "embedded": true,
+      "sha256_installed": "ff0c01d6540dc3b608ac02af09af1592eb498039be66f9a3cc1c5fe8bfb8cc7d"
+    },
+    {
+      "path": "visuales-diplomado-ia/MODULO.md",
+      "sha256_original": "87469518e6a36cdd7de04de62568652f99bf470fffcb2ceb1a0c383895d268fb",
+      "embedded": true,
+      "sha256_installed": "87469518e6a36cdd7de04de62568652f99bf470fffcb2ceb1a0c383895d268fb"
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/ejemplos-validados/Manifiesto_visual_Fiscalizacion_algoritmica_PENO-01_v15.json",
+      "sha256_original": "419e1fd23a948001633825de86adda353c7164693a6633d169413393386e4139",
+      "embedded": true,
+      "sha256_installed": "419e1fd23a948001633825de86adda353c7164693a6633d169413393386e4139"
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/ejemplos-validados/Auditoria_hostil_Fiscalizacion_algoritmica_PENO-01_v15.md",
+      "sha256_original": "e01ca289e359ba57aeab1d9c846db1b3a3f1ea66d5db128f63deb478fde57596",
+      "embedded": true,
+      "sha256_installed": "e01ca289e359ba57aeab1d9c846db1b3a3f1ea66d5db128f63deb478fde57596"
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/ejemplos-validados/Vista_general_Fiscalizacion_algoritmica_PENO-01_v15.png",
+      "sha256_original": "0e32bb3c7b38d701496d2d431083960a17de027923e6e643dc8da4ba058ad872",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/ejemplos-validados/Fiscalizacion_algoritmica_PENO-01_proyeccion_v15.pptx",
+      "sha256_original": "f34d250c56cc97079ad933ec18b41eed5d8dd0e482c0c7c00fae9ec13c12f53e",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/presentation-visuals/final/slide-12-puertas-decision.png",
+      "sha256_original": "24f8fc1ff20e50dd446968011f3b84b9903649f2964a966a252c18597a893ae0",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/presentation-visuals/final/slide-04-norma-control.png",
+      "sha256_original": "96651dd8fdd1ca844502725d1822b3a938d081e1be2c273598f9055d8dd70d36",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/presentation-visuals/final/recorrido-conferencia.png",
+      "sha256_original": "c99a6dd7bb8b718a3209f38750651e9c7bef6ecce4fe4cec2cb4598c02448912",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/presentation-visuals/final/slide-06-frontera-automatizacion.png",
+      "sha256_original": "71e2d66e5d87d6f1874f2423c08657f112cb7191a190fda68a9b7543fac4bee5",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/presentation-visuals/final/slide-03-tesis-central.png",
+      "sha256_original": "b31f5c4b433da9e9b49c350b055476b37fecdf5c28e392bab97f77bea8c7260b",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/presentation-visuals/final/slide-05-fundamento-juridico.png",
+      "sha256_original": "7135683671d1e2477aad768f4e38e51af205d544c1d7a1ff2219a6c9ae82c0ee",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/presentation-visuals/final/slide-07-anatomia-regla.png",
+      "sha256_original": "1fd38554737314b293d394500b96902c96dc89f444ceb5981f37521903e7eb3e",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/Plantilla_Escultorica_Negro_y_Oro_PENO-01.pptx",
+      "sha256_original": "c450c3ff0d074c6756b54061b1fe53a34bee909fcf898bcb22d28db4b1d3f980",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/16_auditoria_causal.png",
+      "sha256_original": "b759a26c74b212a5d10b3e3fa5926c060ff3bc13609920c5892d3235fac4290c",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/23_escudo_dividido.png",
+      "sha256_original": "4d353299509d4810c56df89b4db52b3ba25705af854354989c07eb9d74c6bf46",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/15_escala_intervencion.png",
+      "sha256_original": "0c1d0aebb7145fe4e4807db353e82f489f51276dad8a6a4c3a7abdcf58613bf5",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/21_lente_perfilamiento.png",
+      "sha256_original": "bf8ffa46157934d54e35bf158ad3a33cff4ea59c3b0e6a1948b389071548ec0c",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/17_libro_explicativo.png",
+      "sha256_original": "fbbcae91224a2613a4c2546f9df89e3b35b5c503717d5ca2c7ec7379aad56ae4",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/13_poder_y_control.png",
+      "sha256_original": "18c2aa9dcae5b97897d1742aeb7b095ee1ba89fabf97aec9562773f1cb964e15",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/20_circuito_supervision.png",
+      "sha256_original": "a9373954e6fb5738545c73bf54892a0233cd00e93649791459c23af830603e71",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/19_balanza_inferencia.png",
+      "sha256_original": "cd11b36b95db16c18cd3c6dc943ef6b73ae5303b66af715a00dbc0c383bead84",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/22_ruta_trazabilidad.png",
+      "sha256_original": "9d1ee14b3b87debd14a4d1a1c8eba95325db1d9a0d4cf8765dd960be8cc83c6e",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/24_estatuto_derechos.png",
+      "sha256_original": "fb63c98e8d556bc5cd872169e3d9f84cec23b1b9e1d43d6fb5d7d962af6facbc",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/18_cadena_datos.png",
+      "sha256_original": "31210c1db70b6027a990648d5c5b2930f03239616a01c9eb1f613fa483e6d02d",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales-proyeccion/14_modulos_causales.png",
+      "sha256_original": "849269e15d377a0eda07336e575e3e769ffb43510057fed7e4faf19fcf0eb76d",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/08_riesgo_escudo.png",
+      "sha256_original": "e8dde2382b7ce644969fd9b097d28352b0a9707322259bcc39576c026cd75f05",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/07_ciclo_colaboracion.png",
+      "sha256_original": "feedcdfaeb7bc2eef0a0f66f935dfd7b0b8ebf1e731b6747d2e8cb3ba5e97622",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/04_comparacion.png",
+      "sha256_original": "f47314806b791603ddc547fb727546d210b547d8db5cdee49e51812e5866bee5",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/05_jerarquia_bloques.png",
+      "sha256_original": "96233c8e99f6604d7ef85b2b2033159862cef582206b39758c4ce02dc5f37818",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/09_hoja_ruta.png",
+      "sha256_original": "6665e314e4425c1efdfe1e6094e54c54df6aa697f2253287d7458372c0bebd7f",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/01_portada_marco.png",
+      "sha256_original": "d59222b7d9edc1ac1ceb83f5d8a417283b4abe933e335373c464e8ea484af020",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/11_puente_implementacion.png",
+      "sha256_original": "ca8039e2ef831ad4d52b7b7ce455a7b6dd45dcf207a66f01ba6289cbe4c5e924",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/12_texto_largo_libro.png",
+      "sha256_original": "1206e608df674ca2f9539dbea60f576736d0082837f07ab6213040d0bde946f9",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/06_analisis_engranes.png",
+      "sha256_original": "5e820cb0cbd85336315adfe90b659f2c585c98d015bbccb0ff3d8fcb2ae26fa0",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/02_proceso_modulos.png",
+      "sha256_original": "eee04fb94e928891c88af117975f696ee7f380612dbe11d7131b8389ab3621ef",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/10_deliberacion.png",
+      "sha256_original": "2a7e7f8f2b21eb4df9a9eeee2bd00a945f034bff6cec6ea57c688836ba4105e7",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/visuales/03_crecimiento_finanzas.png",
+      "sha256_original": "503b08ad24f82b7697c32daeda5bf8099bbb3c239f3f382edc414ab35440f927",
+      "embedded": false
+    },
+    {
+      "path": "visuales-diplomado-ia/assets/plantillas/PENO-01/Vista_general_PENO-01.png",
+      "sha256_original": "efd679195a2b8422098a33d0a89d9f315c9d2f0d32ce258ec4a0b996b810d928",
+      "embedded": false
+    },
+    {
+      "path": "INFORME - Validación integral v9.md",
+      "sha256_original": "74a238986a5bfae933d4350af4bc4f637582e9f0b4017296869d7618b0af556a",
+      "embedded": true,
+      "sha256_installed": "74a238986a5bfae933d4350af4bc4f637582e9f0b4017296869d7618b0af556a"
+    },
+    {
+      "path": "INFORME - Validación integral v8.md",
+      "sha256_original": "877ba550cc42b4d73dd90c0772d0ca39f97fdc759ce151a0a82d2ed2575d0a0d",
+      "embedded": true,
+      "sha256_installed": "877ba550cc42b4d73dd90c0772d0ca39f97fdc759ce151a0a82d2ed2575d0a0d"
+    }
+  ],
+  "adaptations": [
+    "SKILL.md renombrado MODULO.md; validador adaptado a ese nombre."
+  ],
+  "library_file_id": "libfile_78b2b8e242388191b3757e3ebef4315c",
+  "source_sha256": "c1e0ec634767b63cbbbc3430eb9fc038adccfd1318d8ef6da559a615878d65be",
+  "source_bytes": 148701109,
+  "resource_mode": "Complete original ZIP included in verified parts; no Library account dependency.",
+  "embedded_parts": [
+    {
+      "path": "assets/PRE-02/paquete-completo-01.bin",
+      "sha256": "bfb3c5a6d6da32d6384677d32e2dff25055cbad1d80005d83c4f782b828a6588",
+      "bytes": 16777216
+    },
+    {
+      "path": "assets/PRE-02/paquete-completo-02.bin",
+      "sha256": "601b1f8d2b1f002e7a8777c1f5d0652f8e3cdf9da4c45a72752f1feba4b163e5",
+      "bytes": 16777216
+    },
+    {
+      "path": "assets/PRE-02/paquete-completo-03.bin",
+      "sha256": "efbcfa7a33dfcd2f6a548997aa8982ca8594ddb48295b83b5efd5ed08d0900ec",
+      "bytes": 16777216
+    },
+    {
+      "path": "assets/PRE-02/paquete-completo-04.bin",
+      "sha256": "253814cec3e4c93d3c4defef85f10042684af038035641fc5c677eaac6782dda",
+      "bytes": 16777216
+    },
+    {
+      "path": "assets/PRE-02/paquete-completo-05.bin",
+      "sha256": "2456c55e1b69e6a15b3d42b857cad9a78aa51a6e5acda562e783040627bd7c4b",
+      "bytes": 16777216
+    },
+    {
+      "path": "assets/PRE-02/paquete-completo-06.bin",
+      "sha256": "25c9a32a806c850e783ed4eef627af39f7618a5e72bff45a1e00c5370c39d6e5",
+      "bytes": 16777216
+    },
+    {
+      "path": "assets/PRE-02/paquete-completo-07.bin",
+      "sha256": "a1d72799727574eaf694427b84c9171b89f970ff8461c5f552bd2c16413215ca",
+      "bytes": 16777216
+    },
+    {
+      "path": "assets/PRE-02/paquete-completo-08.bin",
+      "sha256": "cf6b5ae4ff14c95fbaad07c889b7ae86f6c4d674d87763f8c0fc88b68066ebe5",
+      "bytes": 16777216
+    },
+    {
+      "path": "assets/PRE-02/paquete-completo-09.bin",
+      "sha256": "11e8674b2b462af971dda6831d853a50aab179aba55803e409b6aa70df4d906c",
+      "bytes": 14483381
+    }
+  ]
+}
