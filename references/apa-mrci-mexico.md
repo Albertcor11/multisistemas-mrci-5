@@ -4,7 +4,7 @@
 
 `APA_MRCI_MEXICO` es el perfil editorial e investigativo del Multisistema MRCI 5.0 para obras redactadas en español y destinadas principalmente a México. Su fuente rectora local es *Manual de publicaciones de la American Psychological Association*, cuarta edición en español, publicada por Editorial El Manual Moderno en 2021. La propia portada identifica esta obra como traducción de la séptima edición en inglés; por ello no constituye una versión anterior de APA, sino la edición mexicana en español correspondiente a APA 7.
 
-El ejemplar aportado por el autor es un PDF escaneado de 457 páginas, sin capa de texto, con SHA-256 `c0b0bc645fef2847651694ec38e25b7cc454a16b1449ed418e4541dd1fcf4b9e`, ISBN mexicano `978-607-448-856-2` e ISBN de la obra original `978-1-4338-3216-1`. Permanece en `un ejemplar externo aportado legítimamente por la persona usuaria y vuelto a adjuntar para el encargo` como fuente local de consulta y no se incorpora a paquetes para terceros. Esta referencia es una destilación operativa y no reproduce el manual.
+El ejemplar aportado por el autor es un PDF escaneado de 457 páginas, sin capa de texto, con SHA-256 `c0b0bc645fef2847651694ec38e25b7cc454a16b1449ed418e4541dd1fcf4b9e`, ISBN mexicano `978-607-448-856-2` e ISBN de la obra original `978-1-4338-3216-1`. Permanece en `un ejemplar externo aportado legítimamente por la persona usuaria y vuelto a adjuntar para el encargo` como fuente local de consulta y no se incorpora a paquetes para terceros. Esta referencia es una destilación operativa y no reproduce el manual. Para búsqueda textual se incorpora además su transcripción OCR en `assets/sistema-apa-mexico/Manual_APA_4_Mexico_2021_Texto.md`; ante cualquier discrepancia prevalece la página escaneada.
 
 La APA identifica su séptima edición como la fuente oficial del estilo y registra una traducción al español. Para controles internacionales consulta la [página oficial de la séptima edición](https://www.apa.org/pubs/books/publication-manual-7th-edition-paperback) y registra la fecha de consulta; corte de integración inicial: 9 de septiembre de 2026.
 
@@ -34,14 +34,14 @@ Aplicar [el Sistema de edición de citas APA y referencias](sistema-edicion-cita
 | Arquitectura y formato | 2. Elementos y formato del escrito | 29–70 |
 | Informes cuantitativos, cualitativos y mixtos | 3. Estándares de presentación | 71–110 |
 | Claridad, continuidad y gramática | 4. Estilo de escritura y gramática | 111–130 |
-| Lenguaje libre de sesgo | 5. Lineamientos del lenguaje libre de sesgo | 131–152 |
+| Lenguaje libre de sesgo | 5. Lineamientos del lenguaje libre de sesgo (guía `references/lenguaje-libre-de-sesgo.md` en EDI-01) | 131–152 |
 | Puntuación, ortografía, mayúsculas, números y listas | 6. Mecánica del estilo | 153–200 |
-| Tablas y figuras | 7. Tablas y figuras | 201–258 |
+| Tablas y figuras | 7. Tablas y figuras (guía `references/figuras-apa-mexico.md` en EDI-01) | 201–258 |
 | Citas, paráfrasis y citas textuales | 8. Obras acreditadas en el texto | 259–286 |
 | Construcción y orden de referencias | 9. Lista de referencias | 287–318 |
 | Modelos por clase de fuente | 10. Ejemplos de referencias | 319–360 |
 | Fuentes jurídicas y ejemplos mexicanos | 11. Referencias jurídicas | 361–380 |
-| Preparación, permisos y publicación | 12. Proceso de publicación | 381–406 |
+| Preparación, permisos y publicación | 12. Proceso de publicación (guía `references/proceso-de-publicacion.md` en EDI-01) | 381–406 |
 
 ## Flujo de investigación y trazabilidad
 
@@ -70,6 +70,7 @@ Aplica estas compuertas:
 - Para autor grupal, registra el nombre completo en la primera aparición y abrevia sólo cuando la abreviatura sea conocida, inequívoca y útil.
 - Evita citas de segunda mano. Cuando no sea posible consultar el original, identifica en el texto la obra original y referencia únicamente la fuente efectivamente consultada.
 - Las comunicaciones personales se citan en el texto con la precisión disponible y no se incluyen en referencias porque no son recuperables.
+- Al citar una fracción, artículo, inciso o párrafo aislado en un párrafo posterior a su primera mención, nombra o sigla el ordenamiento al que pertenece en esa misma oración (p. ej. "la fracción X del artículo 49 Bis del CFF"); no asumas que el lector recuerda de qué ley se trata porque se mencionó antes en el documento.
 
 ## Lista de referencias
 
@@ -129,30 +130,70 @@ Estas plantillas orientan la captura; no autorizan inventar campos faltantes.
 
 ## Fuentes jurídicas mexicanas: sistema dual MRCI
 
-El capítulo 11 distingue las referencias APA de las jurídicas y reconoce que no existe un formato único consensuado para todos los países hispanohablantes. Sus ejemplos mexicanos se apoyan en una adaptación del Bluebook. En el Multisistema esta información opera como formato editorial de recuperación, no como autoridad sustantiva.
+El capítulo 11 distingue las referencias APA de las jurídicas y reconoce que no existe un formato único consensuado para todos los países hispanohablantes (Sección 11.1). Sus ejemplos mexicanos (Sección 11.11, modelos 30 a 33) se apoyan en una adaptación del Bluebook elaborada por el equipo editorial de la *Mexican Law Review*. En el Multisistema esta información opera como formato editorial de recuperación, no como autoridad sustantiva. Catálogo recuperable: IDs `11.1-01` a `11.11-05` en [sistema-apa-mexico-catalogo.json](sistema-apa-mexico-catalogo.json).
 
 Para cada norma, precedente, tratado o acto conserva dos capas:
 
 1. **Capa editorial:** cita dentro del texto y entrada recuperable en la lista de referencias conforme a `APA_MRCI_MEXICO` o a la norma del destino.
 2. **Capa jurídica al último nivel:** autoridad, jurisdicción, tipo de fuente, denominación oficial, libro o título, capítulo, sección, artículo, párrafo, fracción, inciso, numeral, letra, transitorio, publicación oficial, fecha, versión, vigencia, registro, órgano, época, materia, fuerza, ratio o estándar, hechos comparables, aplicabilidad y URL oficial.
 
-Plantillas editoriales de captura:
+### Modelos de captura (Sección 11.11, modelos 30 a 33; catálogo `11.4-01`, `11.5-01`, `11.9-01`, `11.10-01`, `11.11-02` a `11.11-05`)
 
-**Ordenamiento mexicano**
+**Precedente o tesis con registro (modelo 30)**
 
-`Denominación oficial del ordenamiento. Artículo, párrafo, fracción, inciso o transitorio citado. Publicación o última reforma aplicable, Diario Oficial de la Federación, fecha. URL oficial`
+`<Rubro o título del asunto>, <Órgano que resuelve> [<Abreviatura>], <Publicación> [S.J.F.yG. / S.J.F. / A.S.J.F.], <Época>, <tomo>, <mes y año>, Tesis <número>, p. <página> (México).`
 
-**Precedente mexicano**
+Cita parentética: `(Tesis [identificador], [año])`. Cita narrativa: `la tesis [identificador] ([año])`.
 
-`Rubro o nombre del asunto. Órgano, tipo y número o registro digital, época, materia, publicación, fecha y localizador. URL oficial`
+**Código federal (modelo 32) y ley federal (modelo 33)**
 
-**Tratado**
+`<Título oficial del Código o Ley> [<Abreviatura>], <nota de reforma si aplica>, <disposición específica citada, solo cuando el análisis depende de ella>, Diario Oficial de la Federación, <fecha de publicación o de la reforma consultada> (México).`
 
-`Nombre oficial del tratado o convención. Fecha de adopción o firma; fecha de publicación aplicable; artículo y párrafo citados. Repositorio oficial. URL`
+No enlistes cada artículo consultado como entrada separada: incluye la disposición específica solo si el argumento depende de ese artículo; si no, basta la ley o código en general (Sección 11.5).
+
+**Constitución (Sección 11.9, adaptada a México)**
+
+Una constitución citada en su totalidad **no requiere entrada en la lista de referencias**, solo mención narrativa (p. ej., «la Constitución Política de los Estados Unidos Mexicanos reconoce…»). Únicamente un artículo, fracción o transitorio concreto genera entrada:
+
+`Constitución Política de los Estados Unidos Mexicanos [CPEUM], art. <número>, Diario Oficial de la Federación, <fecha de la reforma consultada> (México).`
+
+**Tratado o convención (Sección 11.10)**
+
+`<Nombre oficial del Tratado o Convención>, <fecha completa de firma o aprobación>, <URL>.`
+
+Cita parentética: `(Nombre del Tratado, Año)`. Cita narrativa: `Nombre del Tratado (Año)`.
+
+**Iniciativa o proceso legislativo mexicano (adaptación razonada; Sección 11.6 sin modelo mexicano en el manual)**
+
+El manual no ofrece, ni en su capítulo general ni en su apéndice mexicano, un modelo para iniciativas, dictámenes o exposiciones de motivos en México; el siguiente formato es una adaptación razonada de MRCI sobre la misma lógica de los estatutos (Sección 11.5) y de los materiales legislativos estadounidenses (Sección 11.6), no un modelo oficial del manual. Decláralo así cuando se use.
+
+`<Título o denominación de la iniciativa>, <Cámara de origen> [<Abreviatura: C.D. o S.>], <fecha de presentación o publicación en Gaceta Parlamentaria>, <URL>.`
+
+Cita parentética: `(Nombre corto de la iniciativa, Año)`. Cita narrativa: `la iniciativa [Nombre corto] (Año)`. Si la iniciativa se promulgó, cítala como estatuto o ley conforme al modelo de la Sección 11.5, no como iniciativa.
 
 **Corte Interamericana de Derechos Humanos**
 
 `Corte IDH. Nombre del caso. Tipo de decisión, fecha. Serie y número cuando existan, párrafo(s). URL oficial`
+
+### Abreviaturas jurídicas mexicanas oficiales (Sección 11.11, modelo 31)
+
+No crear abreviaturas nuevas; usar únicamente las que enumera el manual:
+
+| Entidad o publicación | Abreviatura |
+|---|---|
+| Suprema Corte de Justicia de la Nación | S.C.J.N. |
+| Tribunales Colegiados de Circuito | T.C.C. |
+| Semanario Judicial de la Federación y su Gaceta | S.J.F.yG. |
+| Semanario Judicial de la Federación | S.J.F. |
+| Apéndice al Semanario Judicial de la Federación | A.S.J.F. |
+| Precedentes Relevantes | P.R. |
+| Jurisprudencia por Contradicción de Tesis | J.C.T. |
+
+Una sigla que ya se usó en el texto se repite entre corchetes la primera vez que aparece en su propia entrada de referencia (por ejemplo, `[CFF]`, `[CPEUM]`), igual que cualquier otra abreviatura APA.
+
+### Lista de referencias única
+
+La lista final es **una sola secuencia alfabética** (Sección 9.44, catálogo `9.44-02`); nunca se subdivide en subtítulos como «Literatura académica», «Fuentes jurídicas» o «Criterios jurisdiccionales». Una fuente sin autor personal —ley, código, tesis, tratado— se alfabetiza por su título o denominación oficial (Sección 9.49) e intercala en el mismo listado que la doctrina.
 
 No reutilices como vigentes los ejemplos históricos del manual. Para México verifica directamente DOF, Cámara de Diputados, Semanario Judicial de la Federación, SCJN, TFJA o repositorio competente; para el sistema interamericano, la fuente oficial de la Corte IDH o del órgano correspondiente.
 

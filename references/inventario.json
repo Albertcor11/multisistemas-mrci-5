@@ -40,7 +40,7 @@
       "id": "EDI-01",
       "name": "editorial-academico-cientifico-mrci",
       "entry": "modulos/editorial-academico-cientifico-mrci/MODULO.md",
-      "files": 195
+      "files": 202
     },
     {
       "id": "EDU-01",
@@ -109,7 +109,7 @@
     {
       "path": "modulos/biblioteca-institucional-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/biblioteca-institucional-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "DOC-01",
       "source": null,
       "storage": "embedded"
@@ -221,7 +221,7 @@
     {
       "path": "modulos/constitucion-de-sistemas-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/constitucion-de-sistemas-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "ARC-01",
       "source": null,
       "storage": "embedded"
@@ -341,7 +341,7 @@
     {
       "path": "modulos/dalila-proyeccion-jurisdiccional/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/dalila-proyeccion-jurisdiccional/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "JUD-01",
       "source": null,
       "storage": "embedded"
@@ -381,7 +381,7 @@
     {
       "path": "modulos/dalila-proyeccion-jurisdiccional/biblioteca/05-marco-juridico-transversal-mexico.md",
       "original_path": "modulos/dalila-proyeccion-jurisdiccional/biblioteca/05-marco-juridico-transversal-mexico.md",
-      "sha256": "1c1c564d02bfd65e7a3dfe7e11d02541f767db80ae219906754235fa2db62eab",
+      "sha256": "5250a68ebf18a7ccb63230ea288a94f1f9de362770bed6184c09cddd95f0e3f0",
       "package": "JUD-01",
       "source": null,
       "storage": "embedded"
@@ -533,7 +533,7 @@
     {
       "path": "modulos/diseno-de-agentes-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/diseno-de-agentes-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "AGT-01",
       "source": null,
       "storage": "embedded"
@@ -621,7 +621,7 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/MODULO.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/SKILL.md",
-      "sha256": "0d0b64d73b5ea4fac59961f2214a4fdbb9a67c073ccd22556a558beeb58ca86f",
+      "sha256": "abc57ab06065dddbbff3cd840002d2db2fa19126aa7567d5f1b32cf7a7dc1b88",
       "package": "EDI-01",
       "source": null,
       "storage": "embedded"
@@ -658,7 +658,7 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "EDI-01",
       "source": null,
       "storage": "embedded"
@@ -698,7 +698,7 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
-      "sha256": "1c1c564d02bfd65e7a3dfe7e11d02541f767db80ae219906754235fa2db62eab",
+      "sha256": "5250a68ebf18a7ccb63230ea288a94f1f9de362770bed6184c09cddd95f0e3f0",
       "package": "EDI-01",
       "source": null,
       "storage": "embedded"
@@ -762,15 +762,15 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/references/REGLAS_DE_EDICION_Y_PERFIL_AUTORAL_JAPR.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/references/REGLAS_DE_EDICION_Y_PERFIL_AUTORAL_JAPR.md",
-      "sha256": "354149fe85fdb98dc55a67cac3cb3f56f0c93daa821503f1051dd27356f817a0",
+      "sha256": "0a8e6e6a00c6cf03a9314f6c87431b4088106e4de8702187f8333931a8e23fbb",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/references/apa-mrci-mexico.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/references/apa-mrci-mexico.md",
-      "sha256": "e0f45f0755c54c78088bf7e47b5630ff58c343caf1b8446c377986f7af857c38",
+      "sha256": "648282db1340c96d91dc7ffb96ec07b81848450041134a2b01d00f1e17b8c42b",
       "package": "EDI-01",
       "source": null,
       "storage": "embedded"
@@ -778,7 +778,7 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/references/controles-auditoria-apa.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/references/controles-auditoria-apa.md",
-      "sha256": "ec08df64090ff66c0369929a3ad6257d836074d02ff4b90599732d2b898f92f8",
+      "sha256": "b37f0de2ce27c87f6182282e2dea84abf5d9ecdce30529041f10aaa5c802397c",
       "package": "EDI-01",
       "storage": "embedded"
     },
@@ -809,10 +809,10 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/references/opciones-escritura.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/references/opciones-escritura.md",
-      "sha256": "aac353aa1850be93b8181b6361c76d0bbb2be7d4d9b658178ca4a169e9a1b7df",
+      "sha256": "7c4a18428947efb275b553ba84077b48bb8ad62c45d5c95414315e3866730c90",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/references/perfiles-productos.md",
@@ -825,22 +825,22 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/references/produccion-revision-entrega.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/references/produccion-revision-entrega.md",
-      "sha256": "619047e4892ec859c50493cce2f3ac3f1576415b5cc0b769ab6667f7e972b096",
+      "sha256": "06ea6b6d9102d0716ecbb0a9627853b7ad860b950cf04b21799669573eb57bab",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/references/sistema-apa-mexico-catalogo.json",
       "original_path": "modulos/editorial-academico-cientifico-mrci/references/sistema-apa-mexico-catalogo.json",
-      "sha256": "e05d20c1f73ee493f45d458db3a4c8180b11e66dcb30c81a76a0af330787eca6",
+      "sha256": "1fc79c340e5ec90cad9660655759f795b8cfe0f9177ed3cf2331cbe62bc8783a",
       "package": "EDI-01",
       "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/references/sistema-edicion-citas-apa-referencias.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/references/sistema-edicion-citas-apa-referencias.md",
-      "sha256": "bd24524a0e9e4b82d0c66316fe9880d3915d952f96dd9bb921202289e63fef9a",
+      "sha256": "d3230b8c52dbcb6e6fd6e7ec13f5103b48db60345cb2457c5e84b59c51c2fda6",
       "package": "EDI-01",
       "storage": "embedded"
     },
@@ -911,18 +911,18 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/02_protocolos_tesis/README.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/02_protocolos_tesis/README.md",
-      "sha256": "57ca6055eb7bae4dc524a864edb9276b094fb8905c8f8f0940e327bd6721d879",
+      "sha256": "00c1e7a91d284278a10e92f973dd1c7a61bd08c1c499d3887f7f59d39a94d71c",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/02_protocolos_tesis/catalogos/PERFILES_TESIS.json",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/02_protocolos_tesis/catalogos/PERFILES_TESIS.json",
-      "sha256": "91c70f528b600258e741f34cb1a210b494298b27f4ddffb3b166307e7fe06f4e",
+      "sha256": "b6b382547a437b6433f2b7c10923b3e07cd64ce7763dd97e2173809979647304",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/02_protocolos_tesis/pruebas/test_motor_tesis.py",
@@ -991,10 +991,10 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/04_perfil_autoral_japr/REGLAS_DE_EDICION_Y_PERFIL_AUTORAL_JAPR.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/04_perfil_autoral_japr/REGLAS_DE_EDICION_Y_PERFIL_AUTORAL_JAPR.md",
-      "sha256": "354149fe85fdb98dc55a67cac3cb3f56f0c93daa821503f1051dd27356f817a0",
+      "sha256": "326a6c0d08bd06a4b26e342618266d1efe98412c930c46f9ab3702b9f981495b",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/04_perfil_autoral_japr/VALIDACION_OPCIONES_ESCRITURA.md",
@@ -1007,10 +1007,10 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/04_perfil_autoral_japr/catalogos/LEXICO_CONTROL_IA.csv",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/04_perfil_autoral_japr/catalogos/LEXICO_CONTROL_IA.csv",
-      "sha256": "1fa7cde47c93135a1885f147afccf6bd81541218b0482004d709c42d2ce1d1ad",
+      "sha256": "7ff41f4ceeb02e9097219c76ce0f238c11462efe131308eb04b7efca13b809cd",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/04_perfil_autoral_japr/catalogos/MATRIZ_REGLAS_EDICION_JAPR.csv",
@@ -1039,10 +1039,10 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/04_perfil_autoral_japr/pruebas/test_motor_perfil_autoral.py",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/04_perfil_autoral_japr/pruebas/test_motor_perfil_autoral.py",
-      "sha256": "a7312cadaaf2358db07dc5032c43a28629b63ed4d40f18750b33f16267f76525",
+      "sha256": "cad070725e36cfe0fd247a8dde5581e6b89e9fe93ba32a7f37140b2145613dd0",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/04_perfil_autoral_japr/scripts/motor_perfil_autoral.py",
@@ -1071,26 +1071,26 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/05_formato_word_mrci/catalogos/PERFIL_FORMATO_WORD_MRCI.json",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/05_formato_word_mrci/catalogos/PERFIL_FORMATO_WORD_MRCI.json",
-      "sha256": "31f49ba93876ccd33a8d3bd320dce8494367ac9bc93f9aa5b0d127e1fb5129af",
+      "sha256": "93dd76b215e72ef7e7b002bf8a0335dcab996d5460009ed97e60b830ff675534",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/05_formato_word_mrci/pruebas/test_motor_formato_word.py",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/05_formato_word_mrci/pruebas/test_motor_formato_word.py",
-      "sha256": "f50396cc18c5cc25438b67110949f6e6a059df29f5fd5719842e69844fd86186",
+      "sha256": "ec7123b1f8cb906acad084d32d06207e9b2cb7fd5fb426521c46d7b91408a6c0",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/05_formato_word_mrci/scripts/motor_formato_word.py",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/05_formato_word_mrci/scripts/motor_formato_word.py",
-      "sha256": "a4b913b77a3bc193a4efa12772c6f38b331610b998f8b4072002b0eb20d53f95",
+      "sha256": "fe71dc960897d164b55dd2eca94f3bdabe8c07ffec07b059b64798b105603d8c",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/06_aparato_juridico_mrci/catalogos/MATRIZ_FUENTES_JURIDICAS_OFICIALES.csv",
@@ -1119,18 +1119,18 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/06_aparato_juridico_mrci/scripts/motor_aparato_juridico.py",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/06_aparato_juridico_mrci/scripts/motor_aparato_juridico.py",
-      "sha256": "592b57b9b7af0460186a3ca212b48d2e16f30da1099a8d412802998c985f3cd7",
+      "sha256": "75c6154a3166fe30bfd13b2a2d3277c8c475eb9ace61244dcd18ebbbd0d3335c",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/07_libros_narrativa/README.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/07_libros_narrativa/README.md",
-      "sha256": "2e0724329a9079e2be615f336928076d517a2a0e4cf9329d4490ae70a8017a52",
+      "sha256": "204b23481db448383e22c676cfd1d77a4a33ef0988386091c51286f626b5b1a9",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/07_libros_narrativa/VALIDACION.md",
@@ -1159,10 +1159,10 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/08_produccion_entrega/README.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/08_produccion_entrega/README.md",
-      "sha256": "5e6d78d9886b8f383eaf90abe6e98dc3aef75b4b9a733000616b345358300604",
+      "sha256": "fb36b1f17ef64a1f20566ee6238f35d4c096156eb0434389ae97d1572d8d6eea",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/08_produccion_entrega/pruebas/caso_docente.json",
@@ -1207,10 +1207,10 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/09_desarrollo_editorial/README.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/09_desarrollo_editorial/README.md",
-      "sha256": "3aaa9e315bc0bf6fba2a90b96d1c11c2f0222828c612face34c2261e1eda8884",
+      "sha256": "1d537bf7ac638c665c6a76e8b16acf96884a0afde6a06ba49fcc0f28aac7ad44",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/09_desarrollo_editorial/pruebas/test_desarrollo.py",
@@ -1323,7 +1323,7 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/editorial-academico-cientifico-mrci/references/controles-auditoria-apa.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/editorial-academico-cientifico-mrci/references/controles-auditoria-apa.md",
-      "sha256": "ec08df64090ff66c0369929a3ad6257d836074d02ff4b90599732d2b898f92f8",
+      "sha256": "b37f0de2ce27c87f6182282e2dea84abf5d9ecdce30529041f10aaa5c802397c",
       "package": "EDI-01",
       "storage": "embedded"
     },
@@ -1354,10 +1354,10 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/editorial-academico-cientifico-mrci/references/opciones-escritura.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/editorial-academico-cientifico-mrci/references/opciones-escritura.md",
-      "sha256": "aac353aa1850be93b8181b6361c76d0bbb2be7d4d9b658178ca4a169e9a1b7df",
+      "sha256": "8c573b82bcde4e2233ec12e7c2796af7bcae88dad5b354da3cea34c9ab04e6eb",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/editorial-academico-cientifico-mrci/references/perfiles-productos.md",
@@ -1370,10 +1370,10 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/editorial-academico-cientifico-mrci/references/produccion-revision-entrega.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/editorial-academico-cientifico-mrci/references/produccion-revision-entrega.md",
-      "sha256": "619047e4892ec859c50493cce2f3ac3f1576415b5cc0b769ab6667f7e972b096",
+      "sha256": "c677e0ccb4f918c2e6092b7e9ab3cda56c11a36e31871e8a3d9f7eb031f4e34d",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/editorial-academico-cientifico-mrci/references/sistema-apa-mexico-catalogo.json",
@@ -1432,10 +1432,10 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/suite-juridico-fiscal-cumplimiento/MODULO.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/suite-juridico-fiscal-cumplimiento/SKILL.md",
-      "sha256": "bb0561f8ec221fb08706468d2abca8b51cead6a69f1a9e4572c398c977cabf63",
+      "sha256": "d90b7d17e5cda8fd6ff0567609952d49bc80678e0db3d24ec324de74aea402ef",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/suite-juridico-fiscal-cumplimiento/agents/openai.yaml",
@@ -1456,10 +1456,10 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/suite-juridico-fiscal-cumplimiento/references/controls.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/suite-juridico-fiscal-cumplimiento/references/controls.md",
-      "sha256": "8f7ae726677ddc4c1bbb9c4407413c682f945988abf80139a056b9c5de6dba07",
+      "sha256": "64c1848a9e501c7645177f945e30a600153f1b776d850a0ab56ae1a49527e203",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/suite-juridico-fiscal-cumplimiento/references/data-and-audit.md",
@@ -1472,10 +1472,10 @@
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/suite-juridico-fiscal-cumplimiento/references/entregables-y-aprobacion.md",
       "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/suite-juridico-fiscal-cumplimiento/references/entregables-y-aprobacion.md",
-      "sha256": "fe7f64b7bbb50a7a61e7f1a87fe2edd23d6a2ce8253b69e88a20de0be449820d",
+      "sha256": "0749d05abe1d2f50f32c66235cde2ba90c65158441b3d3dc093c2819d5f0ba94",
       "package": "EDI-01",
       "source": null,
-      "storage": "verified_dependency"
+      "storage": "embedded"
     },
     {
       "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/skills/suite-juridico-fiscal-cumplimiento/references/intake-and-products.md",
@@ -2166,6 +2166,62 @@
       "storage": "verified_dependency"
     },
     {
+      "path": "modulos/editorial-academico-cientifico-mrci/assets/sistema-apa-mexico/Manual_APA_4_Mexico_2021_Texto.md",
+      "original_path": "modulos/editorial-academico-cientifico-mrci/assets/sistema-apa-mexico/Manual_APA_4_Mexico_2021_Texto.md",
+      "sha256": "c584475b60c60c073ec0b605d9610b3b4f6c5bb86e7b390b817fce61fd9439be",
+      "package": "EDI-01",
+      "source": null,
+      "storage": "embedded"
+    },
+    {
+      "path": "modulos/editorial-academico-cientifico-mrci/references/figuras-apa-mexico.md",
+      "original_path": "modulos/editorial-academico-cientifico-mrci/references/figuras-apa-mexico.md",
+      "sha256": "2882418f2f37ae362ce5e2704302e60b21d4d91ee47e6f196d42cd00bed952ee",
+      "package": "EDI-01",
+      "source": null,
+      "storage": "embedded"
+    },
+    {
+      "path": "modulos/editorial-academico-cientifico-mrci/references/lenguaje-libre-de-sesgo.md",
+      "original_path": "modulos/editorial-academico-cientifico-mrci/references/lenguaje-libre-de-sesgo.md",
+      "sha256": "7901a488865b2819ca2762a625543a1dddc9fc7be6a38812b12899fe1dea4ead",
+      "package": "EDI-01",
+      "source": null,
+      "storage": "embedded"
+    },
+    {
+      "path": "modulos/editorial-academico-cientifico-mrci/references/proceso-de-publicacion.md",
+      "original_path": "modulos/editorial-academico-cientifico-mrci/references/proceso-de-publicacion.md",
+      "sha256": "e5fac3608b48be11d60e60648a2894b878279721d7f113597b4dd7b5eacaca4d",
+      "package": "EDI-01",
+      "source": null,
+      "storage": "embedded"
+    },
+    {
+      "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/02_protocolos_tesis/catalogos/ESTRUCTURA_DETALLADA_APARTADOS.md",
+      "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/02_protocolos_tesis/catalogos/ESTRUCTURA_DETALLADA_APARTADOS.md",
+      "sha256": "e8db4c66f7a1d7718c14fa94af65416877dfb511fbcf96e1d07a1b4fe4b51286",
+      "package": "EDI-01",
+      "source": null,
+      "storage": "embedded"
+    },
+    {
+      "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/02_protocolos_tesis/catalogos/REGLA_OBJETIVOS_BLOOM_Y_ESPEJO.md",
+      "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/02_protocolos_tesis/catalogos/REGLA_OBJETIVOS_BLOOM_Y_ESPEJO.md",
+      "sha256": "de24c469400e436b19418729d35c874230d7f929386766a900caa8b4f131aa82",
+      "package": "EDI-01",
+      "source": null,
+      "storage": "embedded"
+    },
+    {
+      "path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/05_formato_word_mrci/README.md",
+      "original_path": "modulos/editorial-academico-cientifico-mrci/vendor/MRCI_Editorial_Local/motores/05_formato_word_mrci/README.md",
+      "sha256": "2128d1b56baaffbb1698930fd9a256155c50b257e1fc670a0a84a0c3d1c5590e",
+      "package": "EDI-01",
+      "source": null,
+      "storage": "embedded"
+    },
+    {
       "path": "modulos/multisistema-mrci-5/MODULO.md",
       "original_path": "modulos/multisistema-mrci-5/SKILL.md",
       "sha256": "f36df1fd3a4c96f235a86cdb3787aca320c90ea97d32b83a41d0065b89264edd",
@@ -2191,7 +2247,7 @@
     {
       "path": "modulos/multisistema-mrci-5/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/multisistema-mrci-5/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "MRCI-00",
       "source": null,
       "storage": "embedded"
@@ -2231,7 +2287,7 @@
     {
       "path": "modulos/multisistema-mrci-5/biblioteca/05-marco-juridico-transversal-mexico.md",
       "original_path": "modulos/multisistema-mrci-5/biblioteca/05-marco-juridico-transversal-mexico.md",
-      "sha256": "1c1c564d02bfd65e7a3dfe7e11d02541f767db80ae219906754235fa2db62eab",
+      "sha256": "5250a68ebf18a7ccb63230ea288a94f1f9de362770bed6184c09cddd95f0e3f0",
       "package": "MRCI-00",
       "source": null,
       "storage": "embedded"
@@ -4074,7 +4130,7 @@
     {
       "path": "modulos/orquestacion-de-agentes-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/orquestacion-de-agentes-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "AGT-02",
       "source": null,
       "storage": "embedded"
@@ -4114,7 +4170,7 @@
     {
       "path": "modulos/orquestacion-de-agentes-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
       "original_path": "modulos/orquestacion-de-agentes-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
-      "sha256": "1c1c564d02bfd65e7a3dfe7e11d02541f767db80ae219906754235fa2db62eab",
+      "sha256": "5250a68ebf18a7ccb63230ea288a94f1f9de362770bed6184c09cddd95f0e3f0",
       "package": "AGT-02",
       "source": null,
       "storage": "embedded"
@@ -4242,7 +4298,7 @@
     {
       "path": "modulos/pensamiento-filosofico-aplicado/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/pensamiento-filosofico-aplicado/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "FIL-01",
       "source": null,
       "storage": "embedded"
@@ -4282,7 +4338,7 @@
     {
       "path": "modulos/pensamiento-filosofico-aplicado/biblioteca/05-marco-juridico-transversal-mexico.md",
       "original_path": "modulos/pensamiento-filosofico-aplicado/biblioteca/05-marco-juridico-transversal-mexico.md",
-      "sha256": "1c1c564d02bfd65e7a3dfe7e11d02541f767db80ae219906754235fa2db62eab",
+      "sha256": "5250a68ebf18a7ccb63230ea288a94f1f9de362770bed6184c09cddd95f0e3f0",
       "package": "FIL-01",
       "source": null,
       "storage": "embedded"
@@ -5811,7 +5867,7 @@
     {
       "path": "modulos/produccion-documental-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/produccion-documental-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "DOC-02",
       "source": null,
       "storage": "embedded"
@@ -5907,7 +5963,7 @@
     {
       "path": "modulos/repositorio-y-evidencia-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/repositorio-y-evidencia-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "DOC-03",
       "source": null,
       "storage": "embedded"
@@ -5947,7 +6003,7 @@
     {
       "path": "modulos/repositorio-y-evidencia-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
       "original_path": "modulos/repositorio-y-evidencia-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
-      "sha256": "1c1c564d02bfd65e7a3dfe7e11d02541f767db80ae219906754235fa2db62eab",
+      "sha256": "5250a68ebf18a7ccb63230ea288a94f1f9de362770bed6184c09cddd95f0e3f0",
       "package": "DOC-03",
       "source": null,
       "storage": "embedded"
@@ -6043,7 +6099,7 @@
     {
       "path": "modulos/sentencias-sol/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/sentencias-sol/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "JUD-02",
       "source": null,
       "storage": "embedded"
@@ -6083,7 +6139,7 @@
     {
       "path": "modulos/sentencias-sol/biblioteca/05-marco-juridico-transversal-mexico.md",
       "original_path": "modulos/sentencias-sol/biblioteca/05-marco-juridico-transversal-mexico.md",
-      "sha256": "1c1c564d02bfd65e7a3dfe7e11d02541f767db80ae219906754235fa2db62eab",
+      "sha256": "5250a68ebf18a7ccb63230ea288a94f1f9de362770bed6184c09cddd95f0e3f0",
       "package": "JUD-02",
       "source": null,
       "storage": "embedded"
@@ -6187,7 +6243,7 @@
     {
       "path": "modulos/sistema-asegurador-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/sistema-asegurador-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "SEG-01",
       "source": null,
       "storage": "embedded"
@@ -6227,7 +6283,7 @@
     {
       "path": "modulos/sistema-asegurador-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
       "original_path": "modulos/sistema-asegurador-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
-      "sha256": "1c1c564d02bfd65e7a3dfe7e11d02541f767db80ae219906754235fa2db62eab",
+      "sha256": "5250a68ebf18a7ccb63230ea288a94f1f9de362770bed6184c09cddd95f0e3f0",
       "package": "SEG-01",
       "source": null,
       "storage": "embedded"
@@ -6363,7 +6419,7 @@
     {
       "path": "modulos/sistema-editorial-mrci-licenciaturas/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/sistema-editorial-mrci-licenciaturas/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "EDU-01",
       "source": null,
       "storage": "embedded"
@@ -6403,7 +6459,7 @@
     {
       "path": "modulos/sistema-editorial-mrci-licenciaturas/biblioteca/05-marco-juridico-transversal-mexico.md",
       "original_path": "modulos/sistema-editorial-mrci-licenciaturas/biblioteca/05-marco-juridico-transversal-mexico.md",
-      "sha256": "1c1c564d02bfd65e7a3dfe7e11d02541f767db80ae219906754235fa2db62eab",
+      "sha256": "5250a68ebf18a7ccb63230ea288a94f1f9de362770bed6184c09cddd95f0e3f0",
       "package": "EDU-01",
       "source": null,
       "storage": "embedded"
@@ -6563,7 +6619,7 @@
     {
       "path": "modulos/sistema-inmobiliario-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/sistema-inmobiliario-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "INM-01",
       "source": null,
       "storage": "embedded"
@@ -6603,7 +6659,7 @@
     {
       "path": "modulos/sistema-inmobiliario-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
       "original_path": "modulos/sistema-inmobiliario-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
-      "sha256": "1c1c564d02bfd65e7a3dfe7e11d02541f767db80ae219906754235fa2db62eab",
+      "sha256": "5250a68ebf18a7ccb63230ea288a94f1f9de362770bed6184c09cddd95f0e3f0",
       "package": "INM-01",
       "source": null,
       "storage": "embedded"
@@ -6715,7 +6771,7 @@
     {
       "path": "modulos/sistema-municipal-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/sistema-municipal-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "MUN-01",
       "source": null,
       "storage": "embedded"
@@ -6755,7 +6811,7 @@
     {
       "path": "modulos/sistema-municipal-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
       "original_path": "modulos/sistema-municipal-mrci/biblioteca/05-marco-juridico-transversal-mexico.md",
-      "sha256": "1c1c564d02bfd65e7a3dfe7e11d02541f767db80ae219906754235fa2db62eab",
+      "sha256": "5250a68ebf18a7ccb63230ea288a94f1f9de362770bed6184c09cddd95f0e3f0",
       "package": "MUN-01",
       "source": null,
       "storage": "embedded"
@@ -6867,7 +6923,7 @@
     {
       "path": "modulos/sistema-presentaciones-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
       "original_path": "modulos/sistema-presentaciones-mrci/biblioteca/00-protocolo-realidad-fuentes.md",
-      "sha256": "3cb3c3de7378bc94e404abc415cf44452fe4c307827c80eea54bf81d200adc9d",
+      "sha256": "6eb97a001f04fc6beed14479355663d8eda79f861e617b1e9587786a9ccc0447",
       "package": "PRE-01",
       "source": null,
       "storage": "embedded"
@@ -7272,24 +7328,32 @@
     "modelos_parciales": true,
     "manual_sha256": "c0b0bc645fef2847651694ec38e25b7cc454a16b1449ed418e4541dd1fcf4b9e",
     "dependencias_corpus_base": 0,
-    "recursos_visuales_PRE02": "128 archivos originales incorporados en partes verificadas"
+    "recursos_visuales_PRE02": "128 archivos originales incorporados en partes verificadas",
+    "integracion_2026_10": {
+      "version": "INVESTIGACION-JURIDICA-EDITORIAL-2026-10-24",
+      "fecha_local": "2026-10-24",
+      "origen": "mrci-5-investigacion-juridica-editorial (selección revisada de mejoras)",
+      "archivos_modificados": 53,
+      "archivos_nuevos": 7,
+      "registro": "references/registro-integracion-2026-10.md"
+    }
   },
   "corpus_parts": [
     {
       "path": "assets/corpus/parte-01.bin",
-      "sha256": "309cf9ccd85ac5c0f02d2694a7f1b2e74ce9abe91989fad3414ab69d6f64de04",
+      "sha256": "c0df13d8750c94fe2c6f59b34d21bae4ddadafc61c05dfcbd31bfcdf8eb8365b",
       "bytes": 16777216
     },
     {
       "path": "assets/corpus/parte-02.bin",
-      "sha256": "532f69519c216716975fcb5c1d4e50d32459be3e752a5abf124dfaac520df6b7",
+      "sha256": "7e6fcd728b79cfb0af83cb1dba770c239a04567b57d3428645f6be75689ecf0e",
       "bytes": 16777216
     },
     {
       "path": "assets/corpus/parte-03.bin",
-      "sha256": "b34e3e6a47bc17e02a7139ced76590f7c1308ca9d44cda4caf139176463a305b",
-      "bytes": 6025394
+      "sha256": "2a7ecc17c6cae112dabba7ae22b8a0cba43cc54081a04535fe17213b48a7893d",
+      "bytes": 6653493
     }
   ],
-  "corpus_sha256": "b26cda988255fff66b64b257d146f87d7e37b0a6542780096dbfcb6f0bc688a1"
+  "corpus_sha256": "fc8a418560bec475b82350d148e1c859c70b9703e981e6c858a34813193761e4"
 }

@@ -19,5 +19,6 @@ Aplicar estos controles a cada caso pertinente. Sus ejemplos describen estructur
 | Subtítulo | Apartado 9.19. Escribir con mayúscula inicial la primera palabra del subtítulo según el perfil APA. |
 | Notas de tablas | Vincular las fuentes a los hechos de cada fila. Una fuente incluida pero ajena al contenido no acredita la tabla. |
 | Paráfrasis y literalidad | Verificar el pasaje. No exigir página a toda paráfrasis ni atribuir como resultado empírico una inferencia del redactor. |
+| Localizador de paráfrasis en obra paginada | Apartados 8.23, 8.25 y 8.28. En la paráfrasis el localizador es opcional; si se incluye, debe ser un número real de página o párrafo. No sustituir el número de página por el nombre de una sección (por ejemplo, «resumen e introducción») cuando la obra sí tenga paginación; ese localizador por sección sólo es válido en obras sin números de página. Si la idea citada es el argumento general de la obra, omitir el localizador en vez de aproximarlo. |
 
 Separar error confirmado, cotejo pendiente y caso no aplicable. Nunca aprobar el contenido de una cita por haber comprobado sólo los metadatos. El título oficial de una fuente jurídica y el aparato que acredita su fuerza y aplicabilidad se controlan por separado.

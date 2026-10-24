@@ -23,7 +23,7 @@ Buscar en el catálogo mediante `rg -n` con el ID de regla, de modelo o de fuent
 
 ## Alcance comprobado del corpus
 
-Conservar el estado de corpus parcial: 565 instrucciones, 104 con modelos de esta selección y 461 pendientes de ejemplo; 30 modelos de cita y 21 referencias de publicaciones, 51 modelos en conjunto. Usar de una a diez columnas de variantes verificadas según el bloque de la matriz. No afirmar que diez sea un máximo normativo ni que se hayan agotado todas las variantes posibles.
+Conservar el estado de corpus parcial: 570 instrucciones en el catálogo JSON (las 565 de la tabla Excel y 5 reglas jurídicas y de lista única añadidas en octubre de 2026), 104 con modelos de esta selección y 466 pendientes de ejemplo; 30 modelos de cita y 21 referencias de publicaciones, 51 modelos en conjunto. Usar de una a diez columnas de variantes verificadas según el bloque de la matriz. No afirmar que diez sea un máximo normativo ni que se hayan agotado todas las variantes posibles.
 
 No inventar ejemplos para cerrar las reglas pendientes. Si el caso solicitado no está representado, localizar el apartado específico del manual y una publicación original que permita construir y verificar un modelo. Identificar ese modelo como nuevo y registrar su evidencia antes de incorporarlo.
 
@@ -44,9 +44,13 @@ Mantener las citas en el cuerpo del trabajo. Colocar al final, en «Referencias�
 
 Seleccionar forma narrativa o parentética según la oración. Conservar las comillas de la cita breve y el bloque sin comillas para las citas de 40 palabras o más. Usar un localizador verificable; distinguir la página impresa de la posición del archivo PDF. No inventar página cuando la fuente carezca de paginación.
 
+En la paráfrasis, el número de página o párrafo es opcional (apartado 8.23) y, cuando se incluya, debe ser un número real de página o párrafo, nunca el nombre de una sección (por ejemplo, «resumen e introducción»); esa forma de localizador sólo es válida para obras sin numeración de páginas (apartado 8.28). En la cita directa, el número de página es obligatorio (apartado 8.25). Si la idea citada corresponde al argumento general de toda la obra y no a un pasaje puntual, omitir el localizador en vez de inventar uno aproximado o describir una sección.
+
 Identificar expresamente una cita secundaria y referenciar la fuente efectivamente consultada. Conservar las excepciones normativas, como comunicaciones personales no recuperables; no completar mecánicamente la lista con una referencia ficticia.
 
 Ordenar las referencias alfabéticamente y aplicar doble espacio y sangría francesa de 1.27 cm. Conservar cursivas nativas en Word, apellidos completos, fechas, edición, volumen, número, páginas o eLocalizador y DOI o URL según corresponda. No añadir un punto a un DOI o URL. Mantener las fechas de recuperación únicamente cuando procedan.
+
+No subdividir la lista final en subtítulos por categoría de fuente (por ejemplo «Literatura académica», «Fuentes jurídicas» o «Criterios jurisdiccionales»); intercalar doctrina, leyes, jurisprudencia y tratados en una sola secuencia alfabética, alfabetizando por título o denominación oficial cuando la fuente carezca de autor personal. Para los modelos de referencia jurídica mexicana (precedentes con registro, códigos, leyes, Constitución y tratados) y sus abreviaturas oficiales, aplicar [Fuentes jurídicas mexicanas](apa-mrci-mexico.md#fuentes-jurídicas-mexicanas-sistema-dual-mrci) y los IDs `9.44-02`, `11.4-01`, `11.5-01`, `11.6-01`, `11.9-01`, `11.10-01` y `11.11-01` a `11.11-05` del catálogo.
 
 El Excel presenta los ejemplos como texto; usar el Word para corroborar cursivas y sangrías. No trasladar colores, códigos de modelo ni columnas de evidencia a las citas o a las referencias del manuscrito.
 
@@ -66,7 +70,7 @@ Revisar todos los renglones de la versión final renderizada, página por págin
 
 Para cada cita, comprobar su modalidad, autoría, fecha, localizador cuando proceda, literalidad o fidelidad de la paráfrasis, signos, cursivas y fuente que sostiene la proposición. Vincular el modelo de comparación y la regla del manual. Para cada referencia, cotejar la entrada completa con la publicación original, su categoría, correspondencia con el cuerpo y presentación final. No autorizar una referencia por la sola coincidencia de autor y año.
 
-Si no existe un ejemplo aplicable en el corpus, verificar el apartado del manual y construir un modelo sustentado en una publicación original; incorporarlo al expediente de auditoría antes de cerrar ese control. No equiparar las 104 reglas con modelos a cobertura de todas las reglas. No exigir aplicar las 565 instrucciones cuando no correspondan al trabajo, pero justificar toda declaración de no aplicabilidad.
+Si no existe un ejemplo aplicable en el corpus, verificar el apartado del manual y construir un modelo sustentado en una publicación original; incorporarlo al expediente de auditoría antes de cerrar ese control. No equiparar las 104 reglas con modelos a cobertura de todas las reglas. No exigir aplicar las 570 instrucciones cuando no correspondan al trabajo, pero justificar toda declaración de no aplicabilidad.
 
 Conservar un registro de auditoría con estos campos:
 

@@ -13,7 +13,7 @@ Consultar [mapa de módulos](references/mapa.md), elegir un rector por finalidad
 
 Los 16 módulos base, incluido el integrador MRCI-00 completo, están incorporados en el contenedor propio y se verifican por hash. No requieren las skills originales para recuperar sus recursos. PRE-02 incorpora también su paquete visual completo de 128 archivos, recuperable mediante `scripts/preparar_PRE02.py`, conforme a `references/carga-PRE-02.md`. No afirmar autonomía de recursos externos a este contenedor ni disponibilidad de motores no incluidos.
 
-Los archivos originales denominados `SKILL.md` se almacenan como `MODULO.md` para mantener una sola skill instalada. Su contenido se conserva sin cambios. Si una referencia interna pide `SKILL.md`, abrir `MODULO.md` en esa misma carpeta. El [inventario](references/inventario.json) conserva ruta original, ruta almacenada y hash. Para un runtime que necesite las rutas originales, ejecutar `python scripts/abrir_corpus.py --originales` y trabajar en la copia temporal que devuelve.
+Los archivos originales denominados `SKILL.md` se almacenan como `MODULO.md` para mantener una sola skill instalada. Su contenido se conserva sin cambios, salvo las mejoras de investigación jurídica y editorial de octubre de 2026 enumeradas en el [registro de integración](references/registro-integracion-2026-10.md). Si una referencia interna pide `SKILL.md`, abrir `MODULO.md` en esa misma carpeta. El [inventario](references/inventario.json) conserva ruta original, ruta almacenada y hash. Para un runtime que necesite las rutas originales, ejecutar `python scripts/abrir_corpus.py --originales` y trabajar en la copia temporal que devuelve.
 
 Leer el protocolo de realidad (`modulos/multisistema-mrci-5/biblioteca/00-protocolo-realidad-fuentes.md`) y el perfil JAPR (`modulos/multisistema-mrci-5/biblioteca/01-perfil-humanizacion-japr.md`) al iniciar un asunto; consultar citación y edición (`modulos/multisistema-mrci-5/biblioteca/02-citacion-edicion.md`) al fundamentar textos.
 
@@ -65,7 +65,7 @@ No abrir servidores ni exponer servicios por el solo hecho de activar la skill. 
 
 ## Integridad y límites
 
-Ejecutar `python scripts/abrir_corpus.py --verificar` desde esta carpeta cuando sea necesario cotejar los recursos con el inventario. Los hashes acreditan igualdad de bytes con los originales recibidos, no verdad, autoría ni autenticidad jurídica.
+Ejecutar `python scripts/abrir_corpus.py --verificar` desde esta carpeta cuando sea necesario cotejar los recursos con el inventario. Los hashes acreditan igualdad de bytes con la versión registrada en el inventario, no verdad, autoría ni autenticidad jurídica.
 
 Buscar por tema con `rg -n -i 'tema' modulos/ --glob '*.md'` y por nombre con `rg --files modulos/`. No asumir acceso a bibliotecas privadas ausentes, licencias, cuentas o rutas de otra computadora. Identificar el recurso exacto que falta si es indispensable.
 
@@ -74,6 +74,8 @@ Buscar por tema con `rg -n -i 'tema' modulos/ --glob '*.md'` y por nombre con `r
 Redactar en español profesional, natural, preciso y crítico. Iniciar las viñetas con mayúscula. Mantener materialidad, trazabilidad, proporcionalidad y tutela judicial efectiva. Aplicar Ius Mutantur con justificación de pertinencia. Consultar las referencias jurídicas 05 a 08 de la biblioteca del integrador cuando correspondan.
 
 Adaptar extensión y estructura al producto pedido. Separar observaciones internas de documentos finales destinados a terceros. Revisar visualmente documentos y presentaciones con las herramientas apropiadas antes de entregarlos. Informar qué se obtuvo, qué está comprobado y qué conclusión sigue condicionada, sin exponer mecanismos internos que no ayuden al usuario.
+
+El documento entregado nunca menciona, cita ni hace referencia a la metodología, skill, rector, módulo, motor o apoyo interno usado para producirlo (por ejemplo, «MRCI 5.0», «Multisistema», «ANJU», «INJU», «ESFI», «EDI-01», «DOC-02», «SEG-01» o nombres equivalentes de cualquier módulo); se lee como un producto autónomo, sin rastro del proceso o herramienta con que se generó. Esta restricción aplica por defecto a todo entregable de los 17 módulos, sin que el usuario deba repetirla en cada encargo. Los avisos de trabajo, limitaciones de elaboración y matrices de control van al expediente interno; antes de entregar, buscar esos nombres directamente en el archivo generado.
 
 Para cargar sólo un área, usar `python scripts/abrir_corpus.py --modulo MRCI-00 --modulo SEG-01`, sustituyendo el segundo código por los apoyos requeridos; el argumento --modulo puede repetirse.
 
@@ -93,7 +95,9 @@ Coordinar PRE-01 para la producción general de presentaciones y PRE-02 para edi
 
 Para cualquier producto académico, activar EDI-01 y el [sistema de edición de citas APA y referencias](references/sistema-edicion-citas-apa-referencias.md), aunque la especialidad sustantiva corresponda a otro rector. Consultar [el perfil APA México](references/apa-mrci-mexico.md), [los controles de auditoría](references/controles-auditoria-apa.md) y el catálogo indicado en esa guía. Los modelos y el manual están incorporados en EDI-01; ejecutar `scripts/abrir_corpus.py --modulo EDI-01` y resolver las rutas desde la carpeta obtenida.
 
-Conservar las citas en el texto y las referencias completas al final. Identificar y leer las publicaciones originales; las tesis sólo sirven como pista de búsqueda salvo que se cite la tesis misma. Mantener el corpus de ejemplos como parcial y aplicar las reglas específicas del manual a los casos no representados.
+Conservar las citas en el texto y las referencias completas al final. Identificar y leer las publicaciones originales; las tesis sólo sirven como pista de búsqueda salvo que se cite la tesis misma. Mantener el corpus de ejemplos como parcial y aplicar las reglas específicas del manual a los casos no representados. Para localizar un apartado del manual por texto, usar su transcripción OCR en EDI-01 (`assets/sistema-apa-mexico/Manual_APA_4_Mexico_2021_Texto.md`) y cotejar la página escaneada del PDF ante cualquier duda.
+
+Para protocolos y tesis, aplicar además la estructura detallada de apartados y la regla de objetivos Bloom-espejo del motor `02_protocolos_tesis` de EDI-01. Antes de entregar un producto académico o jurídico, ejecutar las tres auditorías que describe el `MODULO.md` de EDI-01 (formato Word, voz y metatexto, render completo); ninguna sustituye a las otras dos.
 
 Antes de la entrega académica, revisar cada renglón de la versión final renderizada, cada cita y cada referencia, incluidas tablas, notas y anexos. Registrar evidencia, versión, huellas y cobertura por conjunto. Usar `ENTREGA_BLOQUEADA` ante cualquier error, cotejo pendiente o revisión incompleta; usar `VALIDADO_PARA_ENTREGA_ACADEMICA` sólo tras el cierre documentado de todos los controles aplicables. No certificar contenido mediante conteos, hashes o inspección de metadatos. El estado editorial no constituye aprobación institucional ni garantía de verdad.
 
