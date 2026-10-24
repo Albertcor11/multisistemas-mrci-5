@@ -66,6 +66,7 @@ No revertirlas sin consultarlo:
 | 2026-09-30 | Versión base «Multisistema 5.0 Virgen» | Commit `b3ab404` |
 | 2026-10-24 | Mejoras de investigación jurídica y editorial desde `mrci-5-investigacion-juridica-editorial` | [registro](references/registro-integracion-2026-10.md), PR #1 |
 | 2026-10-24 | Guía de mantenimiento y `reempaquetar_corpus.py` | Este archivo, PR #2 |
+| 2026-10-24 | Instrucciones de instalación por plataforma | `README.md`, PR #3 |
 
 Agregar una fila por cada actualización.
 
