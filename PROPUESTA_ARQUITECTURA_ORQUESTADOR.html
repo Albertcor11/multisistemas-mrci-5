@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RFC Técnico · Orquestador Maestro y Mini-Skills | Multisistemas MRCI 5.0</title>
+  <style>
+    :root {
+      --bg-primary: #0b0f17;
+      --bg-card: #131a27;
+      --bg-card-hover: #192233;
+      --bg-code: #080b11;
+      --border: #243047;
+      --gold: #d4af37;
+      --gold-light: #f3d470;
+      --gold-dim: rgba(212, 175, 55, 0.14);
+      --text-main: #eef2f6;
+      --text-muted: #9aa6b8;
+      --emerald: #10b981;
+      --emerald-dim: rgba(16, 185, 129, 0.14);
+      --blue: #3b82f6;
+      --blue-dim: rgba(59, 130, 246, 0.14);
+      --purple: #a855f7;
+      --purple-dim: rgba(168, 85, 247, 0.14);
+      --rose: #f43f5e;
+      --rose-dim: rgba(244, 63, 94, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding-bottom: 4rem;
+    }
+
+    /* Header / Hero */
+    header {
+      background: radial-gradient(circle at top right, rgba(212, 175, 55, 0.16), transparent 55%),
+                  linear-gradient(180deg, #111827 0%, #0b0f17 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 3rem 1.5rem 2.5rem;
+    }
+
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-bottom: 1rem;
+    }
+
+    .badge {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+    }
+
+    .badge-gold {
+      background: var(--gold-dim);
+      color: var(--gold-light);
+      border-color: rgba(212, 175, 55, 0.4);
+    }
+
+    .badge-green {
+      background: var(--emerald-dim);
+      color: #34d399;
+      border-color: rgba(16, 185, 129, 0.4);
+    }
+
+    .badge-blue {
+      background: var(--blue-dim);
+      color: #60a5fa;
+      border-color: rgba(59, 130, 246, 0.4);
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+      color: #ffffff;
+    }
+
+    h1 span {
+      color: var(--gold);
+    }
+
+    .subtitle {
+      font-size: 1.08rem;
+      color: var(--text-muted);
+      max-width: 860px;
+    }
+
+    /* Stats Bar */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .stat-card {
+      background: rgba(19, 26, 39, 0.85);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.1rem 1.25rem;
+    }
+
+    .stat-value {
+      font-size: 1.65rem;
+      font-weight: 800;
+      color: var(--gold-light);
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.15rem;
+    }
+
+    /* Navigation Tabs */
+    .nav-bar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(11, 15, 23, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 0.45rem 0.9rem;
+      border-radius: 8px;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text-main);
+      background: var(--bg-card);
+    }
+
+    /* Sections */
+    section {
+      padding: 2.75rem 1.5rem 0;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .section-title::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 22px;
+      background: var(--gold);
+      border-radius: 3px;
+    }
+
+    .section-desc {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      font-size: 0.96rem;
+    }
+
+    /* Before vs After Grid */
+    .compare-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      transition: border-color 0.2s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(212, 175, 55, 0.45);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .list-check {
+      list-style: none;
+    }
+
+    .list-check li {
+      position: relative;
+      padding-left: 1.6rem;
+      margin-bottom: 0.75rem;
+      font-size: 0.94rem;
+      color: #d5dde8;
+    }
+
+    .list-check.before li::before {
+      content: "✕";
+      position: absolute;
+      left: 0;
+      color: var(--rose);
+      font-weight: bold;
+    }
+
+    .list-check.after li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--emerald);
+      font-weight: bold;
+    }
+
+    /* Flow Pipeline */
+    .pipeline {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .step-box {
+      background: linear-gradient(180deg, #161f30 0%, #111826 100%);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--gold);
+      border-radius: 12px;
+      padding: 1.25rem;
+      position: relative;
+    }
+
+    .step-num {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.35rem;
+    }
+
+    .step-title {
+      font-size: 1.02rem;
+      font-weight: 700;
+      margin-bottom: 0.45rem;
+    }
+
+    .step-text {
+      font-size: 0.87rem;
+      color: var(--text-muted);
+    }
+
+    /* Table */
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #182234;
+      color: var(--gold-light);
+      font-weight: 600;
+      padding: 0.95rem 1.1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 0.9rem 1.1rem;
+      border-bottom: 1px solid rgba(36, 48, 71, 0.6);
+      vertical-align: top;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    code {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      background: rgba(255, 255, 255, 0.07);
+      color: #f3d470;
+      padding: 0.15rem 0.4rem;
+      border-radius: 5px;
+      font-size: 0.85em;
+    }
+
+    pre {
+      background: var(--bg-code);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.15rem;
+      overflow-x: auto;
+      margin-top: 0.6rem;
+      margin-bottom: 1rem;
+    }
+
+    pre code {
+      background: none;
+      color: #e2e8f0;
+      padding: 0;
+      font-size: 0.86rem;
+    }
+
+    /* Mini-skills filter & grid */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .filter-btn {
+      background: var(--bg-card);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      padding: 0.45rem 0.95rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.86rem;
+      font-weight: 600;
+      transition: all 0.15s ease;
+    }
+
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--gold-dim);
+      color: var(--gold-light);
+      border-color: var(--gold);
+    }
+
+    .ms-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+      gap: 1rem;
+    }
+
+    .ms-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.15rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .ms-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.55rem;
+    }
+
+    .ms-code {
+      font-family: monospace;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--gold-light);
+      background: var(--gold-dim);
+      padding: 0.2rem 0.55rem;
+      border-radius: 6px;
+    }
+
+    .ms-layer {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 0.18rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .layer-sustantivo { background: var(--blue-dim); color: #93c5fd; }
+    .layer-formato { background: var(--purple-dim); color: #d8b4fe; }
+    .layer-evidencia { background: var(--emerald-dim); color: #6ee7b7; }
+
+    .ms-title {
+      font-weight: 600;
+      font-size: 0.96rem;
+      margin-bottom: 0.45rem;
+    }
+
+    .ms-meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* Feedback section */
+    .feedback-box {
+      background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(19, 26, 39, 0.95) 100%);
+      border: 1px solid rgba(212, 175, 55, 0.4);
+      border-radius: 14px;
+      padding: 1.75rem;
+    }
+
+    .question-item {
+      margin-top: 1.1rem;
+      padding-top: 1.1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .question-item:first-of-type {
+      margin-top: 0.5rem;
+      padding-top: 0;
+      border-top: none;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3.5rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="badge-row">
+        <span class="badge badge-gold">Rama: feature/orquestador</span>
+        <span class="badge badge-green">Verificación SHA-256: 908/908 OK</span>
+        <span class="badge badge-blue">PRE-02: 128/128 Aprobado</span>
+      </div>
+      <h1>Propuesta Técnica: <span>Orquestador Maestro y Mini-Skills</span></h1>
+      <p class="subtitle">
+        Documentación de arquitectura para revisión del equipo de desarrollo de <strong>Multisistemas MRCI 5.0</strong>.
+        Transforma la carga monolítica en un sistema de <strong>Revelación Progresiva (Progressive Disclosure)</strong>
+        con caché persistente, auditoría automática de entregables y creación <em>Plug &amp; Play</em> de nuevas funciones.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value">1 Skill → 18 Mini-Skills</div>
+          <div class="stat-label">Instalación única con activación modular bajo demanda</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">Caché SHA-256</div>
+          <div class="stat-label">Extracción selectiva instantánea sin descomprimir todo cada turno</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">Plug &amp; Play</div>
+          <div class="stat-label">Nuevas mini-skills en <code>extensions/</code> sin recomprimir los <code>.bin</code></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">100% Compatible</div>
+          <div class="stat-label">Conserva intactos <code>abrir_corpus.py</code> y <code>preparar_PRE02.py</code></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav-bar">
+    <div class="nav-links">
+      <a href="#diagnostico">1. Antes vs. Después</a>
+      <a href="#flujo">2. Cómo Funciona</a>
+      <a href="#archivos">3. Archivos Construidos</a>
+      <a href="#catalogo">4. Las 18 Mini-Skills</a>
+      <a href="#comandos">5. Comandos y Nuevas Funciones</a>
+      <a href="#feedback">6. Retroalimentación del Equipo</a>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <!-- 1. ANTES VS DESPUÉS -->
+    <section id="diagnostico">
+      <h2 class="section-title">1. Diagnóstico: ¿Por qué hicimos este cambio?</h2>
+      <p class="section-desc">
+        Comparativa entre el comportamiento actual en la rama <code>main</code> y la arquitectura implementada en <code>feature/orquestador</code>.
+      </p>
+
+      <div class="compare-grid">
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Antes (Rama <code>main</code>)</span>
+            <span class="badge" style="color:#fb7185; border-color:rgba(244,63,94,0.4);">Monolítico</span>
+          </div>
+          <ul class="list-check before">
+            <li><strong>Sobrecarga de contexto en <code>SKILL.md</code>:</strong> El archivo principal incluía reglas extensas de PowerPoint (<code>PRE-02</code>) y de tesis/APA (<code>EDI-01</code>) aunque el usuario pidiera un asunto asegurador o municipal.</li>
+            <li><strong>Descompresión repetitiva:</strong> Cada invocación de <code>abrir_corpus.py</code> creaba una carpeta nueva en <code>/tmp/mrci5-XXXX</code> reconstruyendo los binarios desde cero.</li>
+            <li><strong>Dos scripts separados:</strong> El agente debía recordar usar <code>abrir_corpus.py</code> para 16 módulos y <code>preparar_PRE02.py</code> para PowerPoint.</li>
+            <li><strong>Fricción al crear nuevas funciones:</strong> Agregar cualquier mejora exigía abrir el corpus, cuidar acentos NFD/NFC y correr <code>reempaquetar_corpus.py</code> sobre los 180 MB.</li>
+            <li><strong>Revisión manual de anonimato:</strong> Evitar que se filtraran siglas como <code>MRCI</code>, <code>EDI-01</code> o <code>PENO-01</code> en el documento final dependía de que el modelo no lo olvidara.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Ahora (Rama <code>feature/orquestador</code>)</span>
+            <span class="badge badge-green">Orquestado y Modular</span>
+          </div>
+          <ul class="list-check after">
+            <li><strong><code>SKILL.md</code> como Orquestador Puro:</strong> Sólo contiene las reglas de clasificación, arbitraje inter-modular y calidad de entrega. Las reglas de <code>PRE-02</code> y <code>APA-MX</code> viven en fichas separadas que se leen sólo bajo demanda.</li>
+            <li><strong>Caché persistente verificada por SHA-256:</strong> <code>scripts/orquestador.py</code> reutiliza una caché determinista verificando hashes en milisegundos.</li>
+            <li><strong>Punto de entrada único:</strong> Un solo comando (<code>orquestador.py activar ...</code>) gestiona los 16 módulos base, el núcleo transversal (<code>CORE</code>), <code>PRE-02</code> y nuevas extensiones.</li>
+            <li><strong>Generador de nuevas Mini-Skills:</strong> El comando <code>crear-miniskill</code> crea la estructura en <code>extensions/&lt;CODIGO&gt;/</code> y la registra en el catálogo sin tocar los <code>.bin</code>.</li>
+            <li><strong>Auditor automático pre-entrega:</strong> El comando <code>orquestador.py auditar &lt;archivo&gt;</code> inspecciona <code>.docx</code>, <code>.pptx</code> y <code>.md</code> bloqueando cualquier filtración interna o muletilla IA (42 reglas JAPR).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. CÓMO FUNCIONA -->
+    <section id="flujo">
+      <h2 class="section-title">2. ¿Cómo funciona el Orquestador paso a paso?</h2>
+      <p class="section-desc">
+        Cuando un usuario hace una solicitud a la IA, el sistema ejecuta este ciclo de 5 etapas sin cargar módulos innecesarios:
+      </p>
+
+      <div class="pipeline">
+        <div class="step-box">
+          <div class="step-num">Paso 1 · Entrada</div>
+          <div class="step-title">Lectura de <code>SKILL.md</code></div>
+          <div class="step-text">
+            La IA lee el Orquestador Maestro ligero e identifica los 3 ejes del encargo: <strong>Sustantivo</strong> (fondo), <strong>Formato</strong> (entrega) y <strong>Evidencia</strong>.
+          </div>
+        </div>
+        <div class="step-box">
+          <div class="step-num">Paso 2 · Enrutamiento</div>
+          <div class="step-title"><code>orquestador.py enrutar</code></div>
+          <div class="step-text">
+            Analiza la solicitud contra <code>catalogo-orquestador.json</code>, sugiere las mini-skills exactas y emite advertencias de arbitraje (p. ej. separar SOL de DALILA).
+          </div>
+        </div>
+        <div class="step-box">
+          <div class="step-num">Paso 3 · Carga Selectiva</div>
+          <div class="step-title"><code>orquestador.py activar</code></div>
+          <div class="step-text">
+            Prepara en caché SHA-256 el <strong>Núcleo Transversal (CORE)</strong> + sólo las mini-skills pedidas, devolviendo un JSON con las rutas absolutas a leer.
+          </div>
+        </div>
+        <div class="step-box">
+          <div class="step-num">Paso 4 · Producción</div>
+          <div class="step-title">Ejecución Especializada</div>
+          <div class="step-text">
+            La IA lee únicamente los <code>MODULO.md</code> y fichas activadas, manteniendo su ventana de atención limpia, rápida y enfocada en el caso.
+          </div>
+        </div>
+        <div class="step-box">
+          <div class="step-num">Paso 5 · Compuerta</div>
+          <div class="step-title"><code>orquestador.py auditar</code></div>
+          <div class="step-text">
+            Escanea el archivo <code>.docx</code>, <code>.pptx</code> o <code>.md</code> generado. Si detecta siglas internas o léxico vetado, devuelve <code>ENTREGA_BLOQUEADA</code>.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ARCHIVOS CONSTRUIDOS Y ACTUALIZADOS -->
+    <section id="archivos">
+      <h2 class="section-title">3. Qué se construyó y qué se actualizó</h2>
+      <p class="section-desc">
+        Detalle archivo por archivo de los cambios realizados en la rama <code>feature/orquestador</code>. Ningún binario en <code>assets/</code> fue alterado.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Estado</th>
+              <th>Archivo</th>
+              <th>Función dentro de la nueva arquitectura</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="badge badge-green">NUEVO</span></td>
+              <td><code>scripts/orquestador.py</code></td>
+              <td>
+                <strong>Motor CLI unificado en Python 3.10+</strong> (usa sólo librería estándar). Implementa 6 subcomandos:
+                <code>listar</code>, <code>enrutar</code>, <code>activar</code> (con caché persistente verificada por SHA-256),
+                <code>crear-miniskill</code>, <code>auditar</code> (soporta <code>.docx</code>, <code>.pptx</code>, <code>.md</code>, <code>.txt</code>) y <code>verificar</code>.
+              </td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-green">NUEVO</span></td>
+              <td><code>references/catalogo-orquestador.json</code></td>
+              <td>
+                <strong>Registro declarativo central</strong> de las 18 mini-skills organizadas en 4 capas (<code>sustantivo</code>, <code>formato</code>, <code>evidencia</code>, <code>extension</code>), más la definición del <code>nucleo_transversal</code> (protocolos <code>00</code> a <code>08</code>).
+              </td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-green">NUEVO</span></td>
+              <td><code>references/miniskill-pre02.md</code></td>
+              <td>
+                <strong>Ficha modular bajo demanda para PowerPoint (PRE-02).</strong> Desacopla de <code>SKILL.md</code> las reglas de fidelidad literal Word–PowerPoint, preservación quirúrgica, familias escénicas y estilo <code>PENO-01</code>.
+              </td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-green">NUEVO</span></td>
+              <td><code>references/miniskill-apa-mexico.md</code></td>
+              <td>
+                <strong>Ficha modular bajo demanda para APA México (APA-MX).</strong> Desacopla de <code>SKILL.md</code> las reglas de citación 4.ª ed. en español, transcripción OCR del manual, objetivos Bloom-espejo y las 3 auditorías obligatorias de <code>EDI-01</code>.
+              </td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-gold">ACTUALIZADO</span></td>
+              <td><code>SKILL.md</code></td>
+              <td>
+                <strong>Convertido en Orquestador Maestro puro.</strong> Conserva todas las reglas del responsable y tabla de rectoría, pero delega la carga de detalles de formato a las fichas modulares e integra el flujo de <code>scripts/orquestador.py</code>.
+              </td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-gold">ACTUALIZADO</span></td>
+              <td><code>AGENTS.md</code></td>
+              <td>
+                Documenta el mapa actualizado del repositorio, las instrucciones paso a paso para agregar nuevas mini-skills con <code>crear-miniskill</code> y la entrada en el historial de versiones.
+              </td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-blue">INTACTO</span></td>
+              <td><code>scripts/abrir_corpus.py</code><br><code>scripts/preparar_PRE02.py</code><br><code>assets/corpus/*.bin</code></td>
+              <td>
+                <strong>100% Retrocompatibles.</strong> Todas las pruebas de integridad originales siguen pasando sin cambios (908 archivos base + 128 archivos de PRE-02).
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 4. CATÁLOGO INTERACTIVO DE LAS 18 MINI-SKILLS -->
+    <section id="catalogo">
+      <h2 class="section-title">4. Explorador de las 18 Mini-Skills Registradas</h2>
+      <p class="section-desc">
+        Filtra por capa para ver cómo el Orquestador clasifica los módulos actuales y cómo se conectan con sus apoyos.
+      </p>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" onclick="filterSkills('all', this)">Todas (18)</button>
+        <button class="filter-btn" onclick="filterSkills('sustantivo', this)">Capa Sustantiva / Fondo (11)</button>
+        <button class="filter-btn" onclick="filterSkills('formato', this)">Capa Formato / Producción (5)</button>
+        <button class="filter-btn" onclick="filterSkills('evidencia', this)">Capa Evidencia / Custodia (2)</button>
+      </div>
+
+      <div class="ms-grid" id="skillsGrid">
+        <!-- Sustantivos -->
+        <div class="ms-card" data-layer="sustantivo">
+          <div>
+            <div class="ms-top"><span class="ms-code">MRCI-00</span><span class="ms-layer layer-sustantivo">Sustantivo</span></div>
+            <div class="ms-title">Integrador Multidisciplinario y Expediente Integrado</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: DOC-03, EDI-01</div>
+        </div>
+        <div class="ms-card" data-layer="sustantivo">
+          <div>
+            <div class="ms-top"><span class="ms-code">MUN-01</span><span class="ms-layer layer-sustantivo">Sustantivo</span></div>
+            <div class="ms-title">Gestión, Ingresos y Controles Municipales</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: DOC-03, INM-01, SEG-01</div>
+        </div>
+        <div class="ms-card" data-layer="sustantivo">
+          <div>
+            <div class="ms-top"><span class="ms-code">INM-01</span><span class="ms-layer layer-sustantivo">Sustantivo</span></div>
+            <div class="ms-title">Operación e Inversión Inmobiliaria</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: DOC-03, MRCI-00</div>
+        </div>
+        <div class="ms-card" data-layer="sustantivo">
+          <div>
+            <div class="ms-top"><span class="ms-code">SEG-01</span><span class="ms-layer layer-sustantivo">Sustantivo</span></div>
+            <div class="ms-title">Póliza, Cobertura, Siniestro y Reclamación Aseguradora</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: DOC-03, MRCI-00</div>
+        </div>
+        <div class="ms-card" data-layer="sustantivo">
+          <div>
+            <div class="ms-top"><span class="ms-code">JUD-01</span><span class="ms-layer layer-sustantivo">Sustantivo</span></div>
+            <div class="ms-title">Proyecto o Auditoría Imparcial de Sentencia (DALILA)</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: JUD-02, DOC-03</div>
+        </div>
+        <div class="ms-card" data-layer="sustantivo">
+          <div>
+            <div class="ms-top"><span class="ms-code">JUD-02</span><span class="ms-layer layer-sustantivo">Sustantivo</span></div>
+            <div class="ms-title">Investigación Judicial y Fortalecimiento Litigioso (SOL)</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: DOC-03, JUD-01</div>
+        </div>
+        <div class="ms-card" data-layer="sustantivo">
+          <div>
+            <div class="ms-top"><span class="ms-code">FIL-01</span><span class="ms-layer layer-sustantivo">Sustantivo</span></div>
+            <div class="ms-title">Investigación y Aplicación Filosófica</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: EDI-01, APA-MX</div>
+        </div>
+        <div class="ms-card" data-layer="sustantivo">
+          <div>
+            <div class="ms-top"><span class="ms-code">EDU-01</span><span class="ms-layer layer-sustantivo">Sustantivo</span></div>
+            <div class="ms-title">Documentación de Licenciaturas y Expediente RVOE</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: EDI-01, DOC-02, APA-MX</div>
+        </div>
+        <div class="ms-card" data-layer="sustantivo">
+          <div>
+            <div class="ms-top"><span class="ms-code">ARC-01</span><span class="ms-layer layer-sustantivo">Sustantivo</span></div>
+            <div class="ms-title">Arquitectura y Constitución de Sistemas (ARQE)</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: AGT-01, AGT-02</div>
+        </div>
+        <div class="ms-card" data-layer="sustantivo">
+          <div>
+            <div class="ms-top"><span class="ms-code">AGT-01</span><span class="ms-layer layer-sustantivo">Sustantivo</span></div>
+            <div class="ms-title">Diseño de Agentes Inteligentes (EDIT)</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: ARC-01, AGT-02</div>
+        </div>
+        <div class="ms-card" data-layer="sustantivo">
+          <div>
+            <div class="ms-top"><span class="ms-code">AGT-02</span><span class="ms-layer layer-sustantivo">Sustantivo</span></div>
+            <div class="ms-title">Orquestación y Coordinación de Agentes (OPSY)</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: AGT-01, ARC-01</div>
+        </div>
+
+        <!-- Formato -->
+        <div class="ms-card" data-layer="formato">
+          <div>
+            <div class="ms-top"><span class="ms-code">EDI-01</span><span class="ms-layer layer-formato">Formato</span></div>
+            <div class="ms-title">Libro, Artículo, Tesis y Producto Editorial Académico</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: APA-MX, DOC-02</div>
+        </div>
+        <div class="ms-card" data-layer="formato">
+          <div>
+            <div class="ms-top"><span class="ms-code">APA-MX</span><span class="ms-layer layer-formato">Formato</span></div>
+            <div class="ms-title">Citación APA México (4.ª ed.) y Auditoría Académica</div>
+          </div>
+          <div class="ms-meta">Origen: Ficha Modular Local · Apoyos: EDI-01</div>
+        </div>
+        <div class="ms-card" data-layer="formato">
+          <div>
+            <div class="ms-top"><span class="ms-code">PRE-01</span><span class="ms-layer layer-formato">Formato</span></div>
+            <div class="ms-title">Producción General de Presentaciones Editables</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: PRE-02</div>
+        </div>
+        <div class="ms-card" data-layer="formato">
+          <div>
+            <div class="ms-top"><span class="ms-code">PRE-02</span><span class="ms-layer layer-formato">Formato</span></div>
+            <div class="ms-title">Edición Quirúrgica, Fidelidad Literal y Sistema Visual PowerPoint (PENO-01)</div>
+          </div>
+          <div class="ms-meta">Origen: Extensión + Ficha Local · Apoyos: PRE-01</div>
+        </div>
+        <div class="ms-card" data-layer="formato">
+          <div>
+            <div class="ms-top"><span class="ms-code">DOC-02</span><span class="ms-layer layer-formato">Formato</span></div>
+            <div class="ms-title">Producción y Auditoría Documental</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: DOC-03</div>
+        </div>
+
+        <!-- Evidencia -->
+        <div class="ms-card" data-layer="evidencia">
+          <div>
+            <div class="ms-top"><span class="ms-code">DOC-01</span><span class="ms-layer layer-evidencia">Evidencia</span></div>
+            <div class="ms-title">Custodia y Catalogación Institucional</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: DOC-03</div>
+        </div>
+        <div class="ms-card" data-layer="evidencia">
+          <div>
+            <div class="ms-top"><span class="ms-code">DOC-03</span><span class="ms-layer layer-evidencia">Evidencia</span></div>
+            <div class="ms-title">Evidencia, Materialidad y Trazabilidad Probatoria</div>
+          </div>
+          <div class="ms-meta">Origen: Corpus · Apoyos: DOC-01, DOC-02</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. COMANDOS Y CÓMO AGREGAR NUEVAS FUNCIONES -->
+    <section id="comandos">
+      <h2 class="section-title">5. Guía Práctica de Comandos y Creación de Nuevas Funciones</h2>
+      <p class="section-desc">
+        Cómo interactúan tanto los agentes de IA como los desarrolladores con <code>scripts/orquestador.py</code>.
+      </p>
+
+      <div class="card" style="margin-bottom: 1.25rem;">
+        <div class="card-title">A. Enrutar y Activar Mini-Skills Bajo Demanda</div>
+        <pre><code># 1. Consultar qué mini-skills recomienda el orquestador para un caso:
+python3 scripts/orquestador.py enrutar "Necesito una presentación en PowerPoint sobre una reclamación de póliza de seguros"
+
+# 2. Activar únicamente las mini-skills requeridas (usa caché persistente SHA-256):
+python3 scripts/orquestador.py activar SEG-01 PRE-02
+
+# 3. Si además se requieren las 128 plantillas e imágenes validadas de PRE-02:
+python3 scripts/orquestador.py activar SEG-01 PRE-02 --incluir-recursos-pre02</code></pre>
+      </div>
+
+      <div class="card" style="margin-bottom: 1.25rem;">
+        <div class="card-title">B. Cómo agregar una Nueva Función o Mini-Skill (Sin tocar los <code>.bin</code>)</div>
+        <p style="color: var(--text-muted); font-size: 0.92rem; margin-top: 0.35rem;">
+          Con el subcomando <code>crear-miniskill</code>, cualquier desarrollador puede crear una nueva capacidad modular en <code>extensions/&lt;CODIGO&gt;/</code> y registrarla automáticamente en <code>references/catalogo-orquestador.json</code>:
+        </p>
+        <pre><code>python3 scripts/orquestador.py crear-miniskill \
+  --codigo FIS-01 \
+  --nombre defensa-fiscal-mrci \
+  --titulo "Defensa Fiscal y Litigio Tributario" \
+  --descripcion "Análisis de créditos fiscales, recurso de revocación y juicio contencioso administrativo." \
+  --capa sustantivo \
+  --palabras-clave "crédito fiscal,sat,revocación,nulidad,tributario" \
+  --apoyos "DOC-03,JUD-02"</code></pre>
+        <p style="color: var(--text-muted); font-size: 0.88rem;">
+          Esto genera automáticamente <code>extensions/FIS-01/MODULO.md</code> (con la plantilla estándar MRCI), las carpetas <code>references/</code> y <code>scripts/</code>, y la deja disponible de inmediato en <code>orquestador.py listar</code>, <code>enrutar</code> y <code>activar</code>.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-title">C. Auditar Entregables y Verificar Integridad</div>
+        <pre><code># Escanear un entregable (.docx, .pptx, .md, .txt) contra siglas internas (MRCI, EDI-01, PENO-01) y las 42 reglas JAPR:
+python3 scripts/orquestador.py auditar /ruta/al/Entregable_Final.docx
+
+# Verificar la integridad de los 908 archivos del corpus y de todas las fichas del orquestador:
+python3 scripts/orquestador.py verificar</code></pre>
+      </div>
+    </section>
+
+    <!-- 6. RETROALIMENTACIÓN DEL EQUIPO -->
+    <section id="feedback">
+      <h2 class="section-title">6. Puntos de Revisión para el Equipo (Antes de Merge a <code>main</code>)</h2>
+      <p class="section-desc">
+        Para aprobar el pase de <code>feature/orquestador</code> a <code>main</code>, buscamos la retroalimentación de los desarrolladores en estas 3 decisiones:
+      </p>
+
+      <div class="feedback-box">
+        <div class="question-item">
+          <strong>1. ¿Subdividimos también <code>EDI-01</code> en mini-skills más específicas?</strong>
+          <p style="color: var(--text-muted); font-size: 0.92rem; margin-top: 0.25rem;">
+            Ya separamos <code>APA-MX</code> y <code>PRE-02</code> en fichas modulares bajo demanda. Dado que <code>EDI-01</code> contiene 10 motores editoriales (protocolos de tesis, formato Word 1.6.0, perfil autoral JAPR, libros, aparato jurídico, etc.), ¿les gustaría crear fichas modulares adicionales como <code>EDI-TESIS</code> y <code>EDI-WORD</code>, o prefieren mantener <code>EDI-01</code> + <code>APA-MX</code> como quedó ahora?
+          </p>
+        </div>
+
+        <div class="question-item">
+          <strong>2. Ciclo de vida de las nuevas funciones en <code>extensions/</code></strong>
+          <p style="color: var(--text-muted); font-size: 0.92rem; margin-top: 0.25rem;">
+            Las nuevas mini-skills creadas con <code>crear-miniskill</code> se guardan en texto plano dentro de <code>extensions/&lt;CODIGO&gt;/</code>, lo que facilita revisarlas en Git (diffs limpios en Pull Requests) sin tener que regenerar los 12 archivos <code>.bin</code> en cada cambio. ¿Están de acuerdo con este flujo de trabajo para las nuevas funciones?
+          </p>
+        </div>
+
+        <div class="question-item">
+          <strong>3. Reglas adicionales en la Compuerta de Auditoría (<code>orquestador.py auditar</code>)</strong>
+          <p style="color: var(--text-muted); font-size: 0.92rem; margin-top: 0.25rem;">
+            Actualmente el comando <code>auditar</code> bloquea cualquier aparición de códigos de módulos, siglas internas (<code>MRCI</code>, <code>ANJU</code>, <code>INJU</code>, <code>ESFI</code>, <code>DALILA</code>, <code>PENO-01</code>, <code>JAPR</code>) y los vetos de <code>LEXICO_CONTROL_IA.csv</code> en archivos Word, PowerPoint y Markdown. ¿Desean agregar alguna validación adicional?
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      Multisistemas MRCI 5.0 · Documento de Arquitectura generado en la rama <code>feature/orquestador</code> (Octubre 2026)
+    </div>
+  </footer>
+
+  <script>
+    function filterSkills(layer, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.ms-card').forEach(card => {
+        if (layer === 'all' || card.getAttribute('data-layer') === layer) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+{
+  "version": "5.1.0-orquestador",
+  "descripcion": "Catálogo maestro del Orquestador Multisistemas MRCI 5.0 y sus mini-skills modulares.",
+  "nucleo_transversal": {
+    "id": "CORE",
+    "modulo_origen": "MRCI-00",
+    "archivos": [
+      "modulos/multisistema-mrci-5/biblioteca/00-protocolo-realidad-fuentes.md",
+      "modulos/multisistema-mrci-5/biblioteca/01-perfil-humanizacion-japr.md",
+      "modulos/multisistema-mrci-5/biblioteca/02-citacion-edicion.md",
+      "modulos/multisistema-mrci-5/biblioteca/04-identidad-coordinacion.md",
+      "modulos/multisistema-mrci-5/biblioteca/05-marco-juridico-transversal-mexico.md",
+      "modulos/multisistema-mrci-5/biblioteca/06-teorias-juridicas.md",
+      "modulos/multisistema-mrci-5/biblioteca/07-interpretacion-juridica-dalila.md",
+      "modulos/multisistema-mrci-5/biblioteca/08-filosofia-argumentacion-ius-mutantur.md"
+    ]
+  },
+  "miniskills": [
+    {
+      "id": "MRCI-00",
+      "nombre": "multisistema-mrci-5",
+      "titulo": "Integrador Multidisciplinario y Expediente Integrado",
+      "capa": "sustantivo",
+      "origen": "corpus",
+      "entrada": "modulos/multisistema-mrci-5/MODULO.md",
+      "apoyos_sugeridos": ["DOC-03", "EDI-01"],
+      "palabras_clave": ["multidisciplinario", "expediente integrado", "coordinación", "jurídico", "fiscal", "cumplimiento", "compliance", "pld", "estrategia"]
+    },
+    {
+      "id": "MUN-01",
+      "nombre": "sistema-municipal-mrci",
+      "titulo": "Gestión, Ingresos y Controles Municipales",
+      "capa": "sustantivo",
+      "origen": "corpus",
+      "entrada": "modulos/sistema-municipal-mrci/MODULO.md",
+      "apoyos_sugeridos": ["DOC-03", "INM-01", "SEG-01"],
+      "palabras_clave": ["municipal", "municipio", "ayuntamiento", "predial", "hacienda municipal", "cabildo", "servicios públicos", "cuenta pública"]
+    },
+    {
+      "id": "INM-01",
+      "nombre": "sistema-inmobiliario-mrci",
+      "titulo": "Operación e Inversión Inmobiliaria",
+      "capa": "sustantivo",
+      "origen": "corpus",
+      "entrada": "modulos/sistema-inmobiliario-mrci/MODULO.md",
+      "apoyos_sugeridos": ["DOC-03", "MRCI-00"],
+      "palabras_clave": ["inmobiliario", "inmueble", "arrendamiento", "compraventa", "fideicomiso inmobiliario", "desarrollo inmobiliario", "registro público", "catastro"]
+    },
+    {
+      "id": "SEG-01",
+      "nombre": "sistema-asegurador-mrci",
+      "titulo": "Póliza, Cobertura, Siniestro y Reclamación Aseguradora",
+      "capa": "sustantivo",
+      "origen": "corpus",
+      "entrada": "modulos/sistema-asegurador-mrci/MODULO.md",
+      "apoyos_sugeridos": ["DOC-03", "MRCI-00"],
+      "palabras_clave": ["seguro", "seguros", "póliza", "siniestro", "aseguradora", "cobertura", "reclamación", "indemnización", "condusef", "lcs"]
+    },
+    {
+      "id": "JUD-01",
+      "nombre": "dalila-proyeccion-jurisdiccional",
+      "titulo": "Proyecto o Auditoría Imparcial de Sentencia (DALILA)",
+      "capa": "sustantivo",
+      "origen": "corpus",
+      "entrada": "modulos/dalila-proyeccion-jurisdiccional/MODULO.md",
+      "apoyos_sugeridos": ["JUD-02", "DOC-03"],
+      "palabras_clave": ["sentencia", "proyección jurisdiccional", "dalila", "juez", "magistrado", "proyecto de sentencia", "imparcial", "resolución judicial"]
+    },
+    {
+      "id": "JUD-02",
+      "nombre": "sentencias-sol",
+      "titulo": "Investigación Judicial y Fortalecimiento Litigioso (SOL)",
+      "capa": "sustantivo",
+      "origen": "corpus",
+      "entrada": "modulos/sentencias-sol/MODULO.md",
+      "apoyos_sugeridos": ["DOC-03", "JUD-01"],
+      "palabras_clave": ["litigio", "demanda", "amparo", "agravios", "conceptos de violación", "precedentes", "jurisprudencia", "sol", "estrategia procesal"]
+    },
+    {
+      "id": "FIL-01",
+      "nombre": "pensamiento-filosofico-aplicado",
+      "titulo": "Investigación y Aplicación Filosófica",
+      "capa": "sustantivo",
+      "origen": "corpus",
+      "entrada": "modulos/pensamiento-filosofico-aplicado/MODULO.md",
+      "apoyos_sugeridos": ["EDI-01", "APA-MX"],
+      "palabras_clave": ["filosofía", "filosófico", "ética", "epistemología", "ontología", "axiología", "hermenéutica", "argumentación filosófica"]
+    },
+    {
+      "id": "EDU-01",
+      "nombre": "sistema-editorial-mrci-licenciaturas",
+      "titulo": "Documentación de Licenciaturas y Expediente RVOE",
+      "capa": "sustantivo",
+      "origen": "corpus",
+      "entrada": "modulos/sistema-editorial-mrci-licenciaturas/MODULO.md",
+      "apoyos_sugeridos": ["EDI-01", "DOC-02", "APA-MX"],
+      "palabras_clave": ["licenciatura", "rvoe", "plan de estudios", "programa de asignatura", "curricular", "educativo", "sep", "acreditación"]
+    },
+    {
+      "id": "ARC-01",
+      "nombre": "constitucion-de-sistemas-mrci",
+      "titulo": "Arquitectura y Constitución de Sistemas (ARQE)",
+      "capa": "sustantivo",
+      "origen": "corpus",
+      "entrada": "modulos/constitucion-de-sistemas-mrci/MODULO.md",
+      "apoyos_sugeridos": ["AGT-01", "AGT-02"],
+      "palabras_clave": ["arquitectura de sistemas", "constitución arquitectónica", "arqe", "adr", "ecosistema", "roadmap", "estándares de sistema"]
+    },
+    {
+      "id": "AGT-01",
+      "nombre": "diseno-de-agentes-mrci",
+      "titulo": "Diseño de Agentes Inteligentes (EDIT)",
+      "capa": "sustantivo",
+      "origen": "corpus",
+      "entrada": "modulos/diseno-de-agentes-mrci/MODULO.md",
+      "apoyos_sugeridos": ["ARC-01", "AGT-02"],
+      "palabras_clave": ["diseño de agente", "prompt de sistema", "kernel de instrucciones", "alucinaciones", "agente especializado", "ventana de contexto"]
+    },
+    {
+      "id": "AGT-02",
+      "nombre": "orquestacion-de-agentes-mrci",
+      "titulo": "Orquestación y Coordinación de Agentes (OPSY)",
+      "capa": "sustantivo",
+      "origen": "corpus",
+      "entrada": "modulos/orquestacion-de-agentes-mrci/MODULO.md",
+      "apoyos_sugeridos": ["AGT-01", "ARC-01"],
+      "palabras_clave": ["orquestación", "orquestador", "coordinación de agentes", "multi-agente", "arbitraje", "opsy", "catálogo de capacidades"]
+    },
+    {
+      "id": "EDI-01",
+      "nombre": "editorial-academico-cientifico-mrci",
+      "titulo": "Libro, Artículo, Tesis y Producto Editorial Académico",
+      "capa": "formato",
+      "origen": "corpus",
+      "entrada": "modulos/editorial-academico-cientifico-mrci/MODULO.md",
+      "apoyos_sugeridos": ["APA-MX", "DOC-02"],
+      "palabras_clave": ["tesis", "protocolo de tesis", "libro", "artículo científico", "ensayo académico", "editorial", "monografía", "capítulo", "word académico"]
+    },
+    {
+      "id": "APA-MX",
+      "nombre": "citacion-auditoria-apa-mexico",
+      "titulo": "Citación APA México (4.ª ed.) y Auditoría Académica",
+      "capa": "formato",
+      "origen": "local",
+      "entrada": "references/miniskill-apa-mexico.md",
+      "archivos_locales": [
+        "references/miniskill-apa-mexico.md",
+        "references/sistema-edicion-citas-apa-referencias.md",
+        "references/apa-mrci-mexico.md",
+        "references/controles-auditoria-apa.md",
+        "references/sistema-apa-mexico-catalogo.json"
+      ],
+      "apoyos_sugeridos": ["EDI-01"],
+      "palabras_clave": ["apa", "citas", "referencias bibliográficas", "paráfrasis", "bibliografía", "auditoría apa", "manual moderno"]
+    },
+    {
+      "id": "PRE-01",
+      "nombre": "sistema-presentaciones-mrci",
+      "titulo": "Producción General de Presentaciones Editables",
+      "capa": "formato",
+      "origen": "corpus",
+      "entrada": "modulos/sistema-presentaciones-mrci/MODULO.md",
+      "apoyos_sugeridos": ["PRE-02"],
+      "palabras_clave": ["presentación", "diapositivas", "exposición", "deck", "slides"]
+    },
+    {
+      "id": "PRE-02",
+      "nombre": "visuales-diplomado-ia",
+      "titulo": "Edición Quirúrgica, Fidelidad Literal y Sistema Visual PowerPoint (PENO-01)",
+      "capa": "formato",
+      "origen": "extension_pre02",
+      "entrada": "references/miniskill-pre02.md",
+      "archivos_locales": [
+        "references/miniskill-pre02.md",
+        "references/carga-PRE-02.md",
+        "extensions/PRE-02/visuales-diplomado-ia/MODULO.md"
+      ],
+      "apoyos_sugeridos": ["PRE-01"],
+      "palabras_clave": ["powerpoint", "pptx", "fidelidad literal", "peno-01", "escenas portadoras", "texto grande", "kits mixtos", "negro y oro", "reedición humana"]
+    },
+    {
+      "id": "DOC-01",
+      "nombre": "biblioteca-institucional-mrci",
+      "titulo": "Custodia y Catalogación Institucional",
+      "capa": "evidencia",
+      "origen": "corpus",
+      "entrada": "modulos/biblioteca-institucional-mrci/MODULO.md",
+      "apoyos_sugeridos": ["DOC-03"],
+      "palabras_clave": ["catalogación", "acervo", "custodia documental", "biblioteca institucional", "clasificación de archivos"]
+    },
+    {
+      "id": "DOC-02",
+      "nombre": "produccion-documental-mrci",
+      "titulo": "Producción y Auditoría Documental",
+      "capa": "formato",
+      "origen": "corpus",
+      "entrada": "modulos/produccion-documental-mrci/MODULO.md",
+      "apoyos_sugeridos": ["DOC-03"],
+      "palabras_clave": ["oficio", "dictamen", "acta", "contrato", "informe", "producción documental", "formato institucional"]
+    },
+    {
+      "id": "DOC-03",
+      "nombre": "repositorio-y-evidencia-mrci",
+      "titulo": "Evidencia, Materialidad y Trazabilidad Probatoria",
+      "capa": "evidencia",
+      "origen": "corpus",
+      "entrada": "modulos/repositorio-y-evidencia-mrci/MODULO.md",
+      "apoyos_sugeridos": ["DOC-01", "DOC-02"],
+      "palabras_clave": ["evidencia", "materialidad", "prueba", "trazabilidad probatoria", "cadena de custodia", "expediente probatorio", "anexo"]
+    }
+  ]
+}

@@ -7,13 +7,17 @@ Este archivo explica cómo mantener el repositorio. No forma parte de las instru
 Una sola skill instalable, `multisistemas-mrci-5` (Multisistemas MRCI 5.0), que integra 17 módulos: 16 base dentro de un corpus empaquetado y PRE-02 como extensión. `SKILL.md` es la entrada y enruta cada encargo a un módulo rector; `references/mapa.md` lista los módulos y sus códigos (MRCI-00, EDI-01, DOC-03, etc.).
 
 ```
-SKILL.md                    instrucciones de la skill (lo que lee la IA que la usa)
-agents/openai.yaml          metadatos para Codex/OpenAI
-references/                 guías raíz, inventarios y registros de cambios
-scripts/abrir_corpus.py     extrae y verifica los 16 módulos base
-scripts/reempaquetar_corpus.py  regenera el corpus tras editar módulos
-scripts/preparar_PRE02.py   extrae y valida el paquete visual PRE-02
-assets/corpus/parte-NN.bin  los 16 módulos, en un ZIP partido en piezas de 16 MB
+SKILL.md                         orquestador maestro de la skill (lo que lee la IA que la usa)
+agents/openai.yaml               metadatos para Codex/OpenAI
+references/                      guías raíz, fichas de mini-skills, catálogo e inventarios
+references/catalogo-orquestador.json  catálogo de las 18 mini-skills y extensiones
+references/miniskill-pre02.md    ficha modular bajo demanda para PowerPoint (PRE-02)
+references/miniskill-apa-mexico.md    ficha modular bajo demanda para APA México (APA-MX)
+scripts/orquestador.py           motor unificado (listar, enrutar, activar con caché, crear-miniskill, auditar, verificar)
+scripts/abrir_corpus.py          extrae y verifica los 16 módulos base
+scripts/reempaquetar_corpus.py   regenera el corpus tras editar módulos
+scripts/preparar_PRE02.py        extrae y valida el paquete visual PRE-02
+assets/corpus/parte-NN.bin       los 16 módulos, en un ZIP partido en piezas de 16 MB
 assets/PRE-02/, extensions/PRE-02/  módulo PRE-02
 ```
 
@@ -39,6 +43,27 @@ assets/PRE-02/, extensions/PRE-02/  módulo PRE-02
 9. Commit en la rama, Pull Request hacia `main`, revisión y merge.
 
 Los cambios en `SKILL.md`, `references/` o `scripts/` de la raíz se editan directamente, sin reempaquetar.
+
+## Cómo agregar una nueva función o mini-skill (sin tocar los `.bin`)
+
+Para incorporar una nueva capacidad como mini-skill modular bajo `extensions/`:
+
+1. Ejecutar el generador del orquestador:
+   ```bash
+   python3 scripts/orquestador.py crear-miniskill \
+     --codigo <COD-NN> \
+     --nombre <slug-descriptivo> \
+     --titulo "<Título de la Mini-Skill>" \
+     --descripcion "<Qué hace y cuándo se activa>" \
+     --capa <sustantivo|formato|evidencia|extension> \
+     --palabras-clave "palabra1,palabra2"
+   ```
+2. Editar las instrucciones en `extensions/<COD-NN>/MODULO.md` y colocar catálogos o scripts en `extensions/<COD-NN>/references/` y `extensions/<COD-NN>/scripts/`.
+3. Comprobar que el orquestador la lista, activa y verifica:
+   ```bash
+   python3 scripts/orquestador.py activar <COD-NN>
+   python3 scripts/orquestador.py verificar
+   ```
 
 ## Verificaciones antes de un Pull Request
 
@@ -67,6 +92,7 @@ No revertirlas sin consultarlo:
 | 2026-10-24 | Mejoras de investigación jurídica y editorial desde `mrci-5-investigacion-juridica-editorial` | [registro](references/registro-integracion-2026-10.md), PR #1 |
 | 2026-10-24 | Guía de mantenimiento y `reempaquetar_corpus.py` | Este archivo, PR #2 |
 | 2026-10-24 | Instrucciones de instalación por plataforma | `README.md`, PR #3 |
+| 2026-10-27 | Arquitectura de Orquestador Maestro y Mini-Skills (`orquestador.py`, catálogo y fichas bajo demanda) | Rama `feature/orquestador` |
 
 Agregar una fila por cada actualización.
 
