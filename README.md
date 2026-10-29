@@ -6,7 +6,8 @@ Esta guía explica cómo instalarla. Si vas a **modificar** el proyecto, lee [AG
 
 ## Antes de empezar
 
-**1. Acceso al repositorio.** El repositorio es privado. El dueño debe invitarte desde GitHub (**Settings → Collaborators → Add people**). Acepta la invitación que llega a tu correo y entra a GitHub con esa cuenta.
+**1. Instalación rápida con tu asistente de IA.** El repositorio es público (`https://github.com/Albertcor11/multisistemas-mrci-5`). Puedes pedirle directamente a tu asistente (Claude Code, Antigravity, Codex, Cursor, etc.):
+> *«Instala en mis skills personales la skill que está en https://github.com/Albertcor11/multisistemas-mrci-5 y verifica su integridad con `python3 scripts/orquestador.py verificar`»*.
 
 **2. Dónde funciona completa.** Los 16 módulos base vienen comprimidos y la skill los abre ejecutando Python. Por eso funciona completa sólo donde la IA puede ejecutar código:
 
@@ -24,7 +25,7 @@ Esta guía explica cómo instalarla. Si vas a **modificar** el proyecto, lee [AG
 
 Elige una de las dos formas.
 
-**Con Git** (recomendada, porque después se actualiza con un comando). Requiere [Git](https://git-scm.com/downloads) y haber iniciado sesión en GitHub (por ejemplo con [GitHub Desktop](https://desktop.github.com/) o `gh auth login`). El comando exacto aparece en cada opción.
+**Con Git** (recomendada, porque después se actualiza con `git pull`). Requiere tener [Git](https://git-scm.com/downloads) instalado. El comando exacto aparece en cada opción.
 
 **Sin Git.** En la página del repositorio pulsa **Code → Download ZIP** y descomprime el archivo con el explorador de tu sistema (doble clic en Mac, «Extraer todo» en Windows). La carpeta resultante se llama `multisistemas-mrci-5-main`: **cámbiale el nombre a `multisistemas-mrci-5`**.
 
