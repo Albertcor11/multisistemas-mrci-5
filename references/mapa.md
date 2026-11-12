@@ -26,3 +26,7 @@ Los archivos fuente recibidos contienen instrucciones históricas de instalació
 ## PRE-02 · Edición de Presentaciones PowerPoint
 
 Módulo adicional de acceso directo: [instrucciones](../extensions/PRE-02/visuales-diplomado-ia/MODULO.md). Integra el paquete de 128 archivos mediante instrucciones y scripts incluidos y recursos visuales completos incorporados y recuperables según [carga PRE-02](carga-PRE-02.md), sin extracción del corpus base. Complementa PRE-01 para composición visual, texto editable, fidelidad literal y preservación quirúrgica. Inventario: `inventario-PRE-02.json`.
+
+## DOC-04 · Plantillas del Usuario, Requisitado y Consistencia Transversal
+
+Extensión modular de acceso directo: [ficha rápida](miniskill-doc04.md) e [instrucciones completas](../extensions/DOC-04/MODULO.md). Complementa a `DOC-02`, `DOC-03` y a los rectores sustantivos para parametrizar formatos propios con Ficha de Requisitado, incorporar y rellenar moldes `.docx` conservando logotipos y diseño original en carpeta del usuario, verificar consistencia transversal entre versiones por destinatario y validar campo por campo contra una Ficha de Datos Maestros, sin modificar los paquetes binarios base. Registro: [registro-doc04-2026-11.md](registro-doc04-2026-11.md).
