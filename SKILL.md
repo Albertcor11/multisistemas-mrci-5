@@ -1,6 +1,6 @@
 ---
 name: multisistemas-mrci-5
-description: Orquestar y ejecutar Multisistemas MRCI 5.0 (Multisistema MRCI 5.0) mediante su motor de orquestación y sus 18 mini-skills modulares integradas (16 módulos base, PRE-02, APA-MX y extensiones). Usar cuando el usuario invoque MRCI 5.0 o solicite atención multidisciplinaria, expediente integral o coordinación jurídica, fiscal, municipal, inmobiliaria, aseguradora, jurisdiccional, filosófica, editorial, educativa, documental, visual o de agentes. Clasifica el encargo, activa sólo las mini-skills necesarias bajo demanda y audita el entregable.
+description: Orquestar y ejecutar Multisistemas MRCI 5.0 (Multisistema MRCI 5.0) mediante su motor de orquestación y sus 19 mini-skills modulares integradas (16 módulos base, PRE-02, APA-MX, DOC-04 y extensiones). Usar cuando el usuario invoque MRCI 5.0 o solicite atención multidisciplinaria, expediente integral o coordinación jurídica, fiscal, municipal, inmobiliaria, aseguradora, jurisdiccional, filosófica, editorial, educativa, documental, plantillas propias, visual o de agentes. Clasifica el encargo, activa sólo las mini-skills necesarias bajo demanda y audita el entregable.
 ---
 
 # Multisistemas MRCI 5.0 · Orquestador Maestro
@@ -58,8 +58,9 @@ Consultar el [mapa de módulos](references/mapa.md) o el [catálogo del orquesta
 | Presentación editable general | `PRE-01` | `PRE-02` y especialista sustantivo |
 | Edición, fidelidad literal y preservación de PowerPoint | `PRE-02` | `PRE-01` y especialista sustantivo |
 | Custodia y catalogación institucional | `DOC-01` | `DOC-03` |
-| Producción o auditoría documental | `DOC-02` | Especialista sustantivo |
+| Producción o auditoría documental | `DOC-02` | Especialista sustantivo y `DOC-04` |
 | Evidencia, materialidad y trazabilidad probatoria | `DOC-03` | Especialista sustantivo |
+| Plantillas propias (`.docx`/`.md`), requisitado y consistencia transversal | `DOC-04` | Especialista sustantivo, `DOC-02` y `DOC-03` |
 | Arquitectura de sistemas | `ARC-01` | `AGT-01`, `AGT-02` |
 | Diseño de agentes | `AGT-01` | `ARC-01` |
 | Coordinación de agentes | `AGT-02` | Especialistas pertinentes |
@@ -80,6 +81,8 @@ Cargar estas fichas **únicamente** cuando el encargo involucre su formato:
   Leer [ficha de la Mini-Skill PRE-02](references/miniskill-pre02.md) y [MODULO.md de PRE-02](extensions/PRE-02/visuales-diplomado-ia/MODULO.md). Para extraer las 128 plantillas, muestras e imágenes validadas, usar `python3 scripts/orquestador.py activar PRE-02 --incluir-recursos-pre02` o seguir [carga de recursos PRE-02](references/carga-PRE-02.md).
 - **Citación APA México y Productos Académicos / Tesis (`APA-MX` + `EDI-01`):**
   Para cualquier producto académico, libro, artículo, protocolo o tesis, leer [ficha de la Mini-Skill APA-MX](references/miniskill-apa-mexico.md), que articula `EDI-01`, el [sistema de edición APA](references/sistema-edicion-citas-apa-referencias.md), el [perfil APA México](references/apa-mrci-mexico.md), los [controles de auditoría APA](references/controles-auditoria-apa.md), la regla Bloom-espejo y las tres auditorías obligatorias previas a la entrega (`ENTREGA_BLOQUEADA` / `VALIDADO_PARA_ENTREGA_ACADEMICA`).
+- **Plantillas del Usuario, Requisitado y Consistencia Multi-Destinatario (`DOC-04`):**
+  Para parametrizar un formato en plantilla reutilizable con Ficha de Requisitado, incorporar o rellenar moldes institucionales Word (`.docx`) conservando logotipos y diseño original, adaptar un mismo asunto a varios destinatarios con Tabla de Consistencia Transversal o validar campo por campo contra una Ficha de Datos Maestros, leer [ficha de la Mini-Skill DOC-04](references/miniskill-doc04.md) y [MODULO.md de DOC-04](extensions/DOC-04/MODULO.md). Activar con `python3 scripts/orquestador.py activar <RECTOR_SUSTANTIVO> DOC-04` (ver [registro DOC-04](references/registro-doc04-2026-11.md)).
 - **Creación de nuevas Mini-Skills (`extensions/`):**
   Para agregar una nueva función o mini-skill modular al ecosistema sin alterar el corpus binario, ejecutar:
   ```bash

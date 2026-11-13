@@ -4,21 +4,23 @@ Este archivo explica cómo mantener el repositorio. No forma parte de las instru
 
 ## Qué es este repositorio
 
-Una sola skill instalable, `multisistemas-mrci-5` (Multisistemas MRCI 5.0), que integra 17 módulos: 16 base dentro de un corpus empaquetado y PRE-02 como extensión. `SKILL.md` es la entrada y enruta cada encargo a un módulo rector; `references/mapa.md` lista los módulos y sus códigos (MRCI-00, EDI-01, DOC-03, etc.).
+Una sola skill instalable, `multisistemas-mrci-5` (Multisistemas MRCI 5.0), que integra los 16 módulos base dentro de un corpus empaquetado más sus extensiones modulares de acceso directo (`PRE-02`, `APA-MX`, `DOC-04`). `SKILL.md` es la entrada y enruta cada encargo a un módulo rector; `references/mapa.md` lista los módulos y sus códigos (MRCI-00, EDI-01, DOC-03, DOC-04, etc.).
 
 ```
 SKILL.md                         orquestador maestro de la skill (lo que lee la IA que la usa)
 agents/openai.yaml               metadatos para Codex/OpenAI
 references/                      guías raíz, fichas de mini-skills, catálogo e inventarios
-references/catalogo-orquestador.json  catálogo de las 18 mini-skills y extensiones
+references/catalogo-orquestador.json  catálogo de las 19 mini-skills y extensiones
 references/miniskill-pre02.md    ficha modular bajo demanda para PowerPoint (PRE-02)
 references/miniskill-apa-mexico.md    ficha modular bajo demanda para APA México (APA-MX)
+references/miniskill-doc04.md    ficha modular bajo demanda para plantillas y consistencia (DOC-04)
 scripts/orquestador.py           motor unificado (listar, enrutar, activar con caché, crear-miniskill, auditar, verificar)
 scripts/abrir_corpus.py          extrae y verifica los 16 módulos base
 scripts/reempaquetar_corpus.py   regenera el corpus tras editar módulos
 scripts/preparar_PRE02.py        extrae y valida el paquete visual PRE-02
 assets/corpus/parte-NN.bin       los 16 módulos, en un ZIP partido en piezas de 16 MB
 assets/PRE-02/, extensions/PRE-02/  módulo PRE-02
+extensions/DOC-04/               mini-skill DOC-04 (plantillas propias, requisitado y consistencia transversal)
 ```
 
 ## Lo que no es evidente
@@ -93,6 +95,7 @@ No revertirlas sin consultarlo:
 | 2026-10-24 | Guía de mantenimiento y `reempaquetar_corpus.py` | Este archivo, PR #2 |
 | 2026-10-24 | Instrucciones de instalación por plataforma | `README.md`, PR #3 |
 | 2026-10-27 | Arquitectura de Orquestador Maestro y Mini-Skills (`orquestador.py`, catálogo y fichas bajo demanda) | Rama `feature/orquestador` |
+| 2026-11-12 | Alta de la mini-skill modular `DOC-04` (`plantillas-y-consistencia-documental`) en `extensions/DOC-04/` y ficha bajo demanda | [registro](references/registro-doc04-2026-11.md), rama `miniskill-Modulo04` |
 
 Agregar una fila por cada actualización.
 

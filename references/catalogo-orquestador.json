@@ -195,7 +195,7 @@
       "capa": "formato",
       "origen": "corpus",
       "entrada": "modulos/produccion-documental-mrci/MODULO.md",
-      "apoyos_sugeridos": ["DOC-03"],
+      "apoyos_sugeridos": ["DOC-03", "DOC-04"],
       "palabras_clave": ["oficio", "dictamen", "acta", "contrato", "informe", "producción documental", "formato institucional"]
     },
     {
@@ -207,6 +207,26 @@
       "entrada": "modulos/repositorio-y-evidencia-mrci/MODULO.md",
       "apoyos_sugeridos": ["DOC-01", "DOC-02"],
       "palabras_clave": ["evidencia", "materialidad", "prueba", "trazabilidad probatoria", "cadena de custodia", "expediente probatorio", "anexo"]
+    },
+    {
+      "id": "DOC-04",
+      "nombre": "plantillas-y-consistencia-documental",
+      "titulo": "Plantillas del Usuario, Requisitado y Consistencia Transversal",
+      "capa": "formato",
+      "origen": "extension",
+      "entrada": "extensions/DOC-04/MODULO.md",
+      "archivos_locales": [
+        "references/miniskill-doc04.md",
+        "extensions/DOC-04/MODULO.md",
+        "extensions/DOC-04/references/parametrizacion-y-requisitado.md",
+        "extensions/DOC-04/references/incorporacion-formatos-usuario.md",
+        "extensions/DOC-04/references/adaptacion-y-consistencia-transversal.md",
+        "extensions/DOC-04/references/validacion-ficha-maestra-y-pendientes.md",
+        "extensions/DOC-04/scripts/auditar_plantilla_docx.py",
+        "extensions/DOC-04/pruebas/test_doc04.py"
+      ],
+      "apoyos_sugeridos": ["DOC-02", "DOC-03"],
+      "palabras_clave": ["plantilla propia", "plantilla reutilizable", "formato propio", "molde word", "requisitar", "ficha de requisitado", "campos variables", "adaptación por destinatario", "consistencia transversal", "consistencia entre versiones", "ficha maestra", "ficha de datos maestros"]
     }
   ]
 }
